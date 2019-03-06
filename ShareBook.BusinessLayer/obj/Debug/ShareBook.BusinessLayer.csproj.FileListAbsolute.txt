@@ -1,0 +1,137 @@
+C:\Users\HUSEYIN-PC\source\repos\ShareBook\ShareBook.BusinessLayer\bin\Debug\ShareBook.BusinessLayer.dll.config
+C:\Users\HUSEYIN-PC\source\repos\ShareBook\ShareBook.BusinessLayer\bin\Debug\ShareBook.BusinessLayer.dll
+C:\Users\HUSEYIN-PC\source\repos\ShareBook\ShareBook.BusinessLayer\bin\Debug\ShareBook.BusinessLayer.pdb
+C:\Users\HUSEYIN-PC\source\repos\ShareBook\ShareBook.BusinessLayer\bin\Debug\EntityFramework.dll
+C:\Users\HUSEYIN-PC\source\repos\ShareBook\ShareBook.BusinessLayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\HUSEYIN-PC\source\repos\ShareBook\ShareBook.BusinessLayer\bin\Debug\ShareBook.DAL.dll
+C:\Users\HUSEYIN-PC\source\repos\ShareBook\ShareBook.BusinessLayer\bin\Debug\ShareBook.Entities.dll
+C:\Users\HUSEYIN-PC\source\repos\ShareBook\ShareBook.BusinessLayer\bin\Debug\ShareBook.DAL.pdb
+C:\Users\HUSEYIN-PC\source\repos\ShareBook\ShareBook.BusinessLayer\bin\Debug\ShareBook.DAL.dll.config
+C:\Users\HUSEYIN-PC\source\repos\ShareBook\ShareBook.BusinessLayer\bin\Debug\ShareBook.Entities.pdb
+C:\Users\HUSEYIN-PC\source\repos\ShareBook\ShareBook.BusinessLayer\bin\Debug\EntityFramework.xml
+C:\Users\HUSEYIN-PC\source\repos\ShareBook\ShareBook.BusinessLayer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\HUSEYIN-PC\source\repos\ShareBook\ShareBook.BusinessLayer\obj\Debug\ShareBook.BusinessLayer.csprojResolveAssemblyReference.cache
+C:\Users\HUSEYIN-PC\source\repos\ShareBook\ShareBook.BusinessLayer\obj\Debug\ShareBook.BusinessLayer.csproj.CoreCompileInputs.cache
+C:\Users\HUSEYIN-PC\source\repos\ShareBook\ShareBook.BusinessLayer\obj\Debug\ShareBook.BusinessLayer.dll
+C:\Users\HUSEYIN-PC\source\repos\ShareBook\ShareBook.BusinessLayer\obj\Debug\ShareBook.BusinessLayer.pdb
+C:\Users\HUSEYIN-PC\source\repos\ShareBook\ShareBook.BusinessLayer\bin\Debug\FakeData.dll
+C:\Users\HUSEYIN-PC\source\repos\ShareBook\ShareBook.BusinessLayer\bin\Debug\FakeData.pdb
+C:\Users\HUSEYIN-PC\source\repos\ShareBook\ShareBook.BusinessLayer\bin\Debug\ShareBook.Common.dll
+C:\Users\HUSEYIN-PC\source\repos\ShareBook\ShareBook.BusinessLayer\bin\Debug\ShareBook.Common.pdb
+C:\Users\HUSEYIN-PC\source\repos\ShareBook\ShareBook.BusinessLayer\bin\Debug\ShareBook.Core.dll
+C:\Users\HUSEYIN-PC\source\repos\ShareBook\ShareBook.BusinessLayer\bin\Debug\ShareBook.Core.pdb
+D:\Bitirme\ShareBook\ShareBook.BusinessLayer\bin\Debug\ShareBook.BusinessLayer.dll.config
+D:\Bitirme\ShareBook\ShareBook.BusinessLayer\bin\Debug\ShareBook.BusinessLayer.dll
+D:\Bitirme\ShareBook\ShareBook.BusinessLayer\bin\Debug\ShareBook.BusinessLayer.pdb
+D:\Bitirme\ShareBook\ShareBook.BusinessLayer\bin\Debug\EntityFramework.dll
+D:\Bitirme\ShareBook\ShareBook.BusinessLayer\bin\Debug\EntityFramework.SqlServer.dll
+D:\Bitirme\ShareBook\ShareBook.BusinessLayer\bin\Debug\ShareBook.Common.dll
+D:\Bitirme\ShareBook\ShareBook.BusinessLayer\bin\Debug\ShareBook.Core.dll
+D:\Bitirme\ShareBook\ShareBook.BusinessLayer\bin\Debug\ShareBook.DAL.dll
+D:\Bitirme\ShareBook\ShareBook.BusinessLayer\bin\Debug\ShareBook.Entities.dll
+D:\Bitirme\ShareBook\ShareBook.BusinessLayer\bin\Debug\FakeData.dll
+D:\Bitirme\ShareBook\ShareBook.BusinessLayer\bin\Debug\ShareBook.Common.pdb
+D:\Bitirme\ShareBook\ShareBook.BusinessLayer\bin\Debug\ShareBook.Core.pdb
+D:\Bitirme\ShareBook\ShareBook.BusinessLayer\bin\Debug\ShareBook.DAL.pdb
+D:\Bitirme\ShareBook\ShareBook.BusinessLayer\bin\Debug\ShareBook.DAL.dll.config
+D:\Bitirme\ShareBook\ShareBook.BusinessLayer\bin\Debug\ShareBook.Entities.pdb
+D:\Bitirme\ShareBook\ShareBook.BusinessLayer\bin\Debug\EntityFramework.xml
+D:\Bitirme\ShareBook\ShareBook.BusinessLayer\bin\Debug\EntityFramework.SqlServer.xml
+D:\Bitirme\ShareBook\ShareBook.BusinessLayer\bin\Debug\FakeData.pdb
+D:\Bitirme\ShareBook\ShareBook.BusinessLayer\obj\Debug\ShareBook.BusinessLayer.csprojResolveAssemblyReference.cache
+D:\Bitirme\ShareBook\ShareBook.BusinessLayer\obj\Debug\ShareBook.BusinessLayer.csproj.CoreCompileInputs.cache
+D:\Bitirme\ShareBook\ShareBook.BusinessLayer\obj\Debug\ShareBook.BusinessLayer.dll
+D:\Bitirme\ShareBook\ShareBook.BusinessLayer\obj\Debug\ShareBook.BusinessLayer.pdb
+D:\Bitirme\ShareBook\ShareBook.BusinessLayer\obj\Debug\ShareBook.BusinessLayer.csproj.CopyComplete
+D:\Bitirme\ShareBook\ShareBook\ShareBook.BusinessLayer\bin\Debug\ShareBook.BusinessLayer.dll.config
+D:\Bitirme\ShareBook\ShareBook\ShareBook.BusinessLayer\bin\Debug\ShareBook.BusinessLayer.dll
+D:\Bitirme\ShareBook\ShareBook\ShareBook.BusinessLayer\bin\Debug\ShareBook.BusinessLayer.pdb
+D:\Bitirme\ShareBook\ShareBook\ShareBook.BusinessLayer\bin\Debug\EntityFramework.dll
+D:\Bitirme\ShareBook\ShareBook\ShareBook.BusinessLayer\bin\Debug\EntityFramework.SqlServer.dll
+D:\Bitirme\ShareBook\ShareBook\ShareBook.BusinessLayer\bin\Debug\ShareBook.Common.dll
+D:\Bitirme\ShareBook\ShareBook\ShareBook.BusinessLayer\bin\Debug\ShareBook.Core.dll
+D:\Bitirme\ShareBook\ShareBook\ShareBook.BusinessLayer\bin\Debug\ShareBook.DAL.dll
+D:\Bitirme\ShareBook\ShareBook\ShareBook.BusinessLayer\bin\Debug\ShareBook.Entities.dll
+D:\Bitirme\ShareBook\ShareBook\ShareBook.BusinessLayer\bin\Debug\FakeData.dll
+D:\Bitirme\ShareBook\ShareBook\ShareBook.BusinessLayer\bin\Debug\ShareBook.Common.pdb
+D:\Bitirme\ShareBook\ShareBook\ShareBook.BusinessLayer\bin\Debug\ShareBook.Core.pdb
+D:\Bitirme\ShareBook\ShareBook\ShareBook.BusinessLayer\bin\Debug\ShareBook.DAL.pdb
+D:\Bitirme\ShareBook\ShareBook\ShareBook.BusinessLayer\bin\Debug\ShareBook.DAL.dll.config
+D:\Bitirme\ShareBook\ShareBook\ShareBook.BusinessLayer\bin\Debug\ShareBook.Entities.pdb
+D:\Bitirme\ShareBook\ShareBook\ShareBook.BusinessLayer\bin\Debug\EntityFramework.xml
+D:\Bitirme\ShareBook\ShareBook\ShareBook.BusinessLayer\bin\Debug\EntityFramework.SqlServer.xml
+D:\Bitirme\ShareBook\ShareBook\ShareBook.BusinessLayer\bin\Debug\FakeData.pdb
+D:\Bitirme\ShareBook\ShareBook\ShareBook.BusinessLayer\obj\Debug\ShareBook.BusinessLayer.csprojResolveAssemblyReference.cache
+D:\Bitirme\ShareBook\ShareBook\ShareBook.BusinessLayer\obj\Debug\ShareBook.BusinessLayer.csproj.CoreCompileInputs.cache
+D:\Bitirme\ShareBook\ShareBook\ShareBook.BusinessLayer\obj\Debug\ShareBook.BusinessLayer.csproj.CopyComplete
+D:\Bitirme\ShareBook\ShareBook\ShareBook.BusinessLayer\obj\Debug\ShareBook.BusinessLayer.dll
+D:\Bitirme\ShareBook\ShareBook\ShareBook.BusinessLayer\obj\Debug\ShareBook.BusinessLayer.pdb
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook\ShareBook.BusinessLayer\bin\Debug\ShareBook.BusinessLayer.dll.config
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook\ShareBook.BusinessLayer\bin\Debug\ShareBook.BusinessLayer.dll
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook\ShareBook.BusinessLayer\bin\Debug\ShareBook.BusinessLayer.pdb
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook\ShareBook.BusinessLayer\bin\Debug\EntityFramework.dll
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook\ShareBook.BusinessLayer\bin\Debug\EntityFramework.SqlServer.dll
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook\ShareBook.BusinessLayer\bin\Debug\ShareBook.Common.dll
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook\ShareBook.BusinessLayer\bin\Debug\ShareBook.Core.dll
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook\ShareBook.BusinessLayer\bin\Debug\ShareBook.DAL.dll
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook\ShareBook.BusinessLayer\bin\Debug\ShareBook.Entities.dll
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook\ShareBook.BusinessLayer\bin\Debug\FakeData.dll
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook\ShareBook.BusinessLayer\bin\Debug\ShareBook.Common.pdb
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook\ShareBook.BusinessLayer\bin\Debug\ShareBook.Core.pdb
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook\ShareBook.BusinessLayer\bin\Debug\ShareBook.DAL.pdb
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook\ShareBook.BusinessLayer\bin\Debug\ShareBook.DAL.dll.config
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook\ShareBook.BusinessLayer\bin\Debug\ShareBook.Entities.pdb
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook\ShareBook.BusinessLayer\bin\Debug\EntityFramework.xml
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook\ShareBook.BusinessLayer\bin\Debug\EntityFramework.SqlServer.xml
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook\ShareBook.BusinessLayer\bin\Debug\FakeData.pdb
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook\ShareBook.BusinessLayer\obj\Debug\ShareBook.BusinessLayer.csprojAssemblyReference.cache
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook\ShareBook.BusinessLayer\obj\Debug\ShareBook.BusinessLayer.csproj.CoreCompileInputs.cache
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook\ShareBook.BusinessLayer\obj\Debug\ShareBook.BusinessLayer.csproj.CopyComplete
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook\ShareBook.BusinessLayer\obj\Debug\ShareBook.BusinessLayer.dll
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook\ShareBook.BusinessLayer\obj\Debug\ShareBook.BusinessLayer.pdb
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook.BusinessLayer\bin\Debug\ShareBook.BusinessLayer.dll.config
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook.BusinessLayer\bin\Debug\ShareBook.BusinessLayer.dll
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook.BusinessLayer\bin\Debug\ShareBook.BusinessLayer.pdb
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook.BusinessLayer\bin\Debug\EntityFramework.dll
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook.BusinessLayer\bin\Debug\EntityFramework.SqlServer.dll
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook.BusinessLayer\bin\Debug\ShareBook.Common.dll
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook.BusinessLayer\bin\Debug\ShareBook.Core.dll
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook.BusinessLayer\bin\Debug\ShareBook.DAL.dll
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook.BusinessLayer\bin\Debug\ShareBook.Entities.dll
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook.BusinessLayer\bin\Debug\ShareBook.Common.pdb
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook.BusinessLayer\bin\Debug\ShareBook.Core.pdb
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook.BusinessLayer\bin\Debug\ShareBook.DAL.pdb
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook.BusinessLayer\bin\Debug\ShareBook.DAL.dll.config
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook.BusinessLayer\bin\Debug\ShareBook.Entities.pdb
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook.BusinessLayer\bin\Debug\EntityFramework.xml
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook.BusinessLayer\bin\Debug\EntityFramework.SqlServer.xml
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook.BusinessLayer\obj\Debug\ShareBook.BusinessLayer.csprojAssemblyReference.cache
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook.BusinessLayer\obj\Debug\ShareBook.BusinessLayer.csproj.CoreCompileInputs.cache
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook.BusinessLayer\obj\Debug\ShareBook.BusinessLayer.csproj.CopyComplete
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook.BusinessLayer\obj\Debug\ShareBook.BusinessLayer.dll
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook.BusinessLayer\obj\Debug\ShareBook.BusinessLayer.pdb
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook.BusinessLayer\bin\Debug\FakeData.dll
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook.BusinessLayer\bin\Debug\FakeData.pdb
+D:\Download Firefox\ShareBook\ShareBook\ShareBook\ShareBook.BusinessLayer\bin\Debug\ShareBook.BusinessLayer.dll.config
+D:\Download Firefox\ShareBook\ShareBook\ShareBook\ShareBook.BusinessLayer\bin\Debug\ShareBook.BusinessLayer.dll
+D:\Download Firefox\ShareBook\ShareBook\ShareBook\ShareBook.BusinessLayer\bin\Debug\ShareBook.BusinessLayer.pdb
+D:\Download Firefox\ShareBook\ShareBook\ShareBook\ShareBook.BusinessLayer\bin\Debug\EntityFramework.dll
+D:\Download Firefox\ShareBook\ShareBook\ShareBook\ShareBook.BusinessLayer\bin\Debug\EntityFramework.SqlServer.dll
+D:\Download Firefox\ShareBook\ShareBook\ShareBook\ShareBook.BusinessLayer\bin\Debug\ShareBook.Common.dll
+D:\Download Firefox\ShareBook\ShareBook\ShareBook\ShareBook.BusinessLayer\bin\Debug\ShareBook.Core.dll
+D:\Download Firefox\ShareBook\ShareBook\ShareBook\ShareBook.BusinessLayer\bin\Debug\ShareBook.DAL.dll
+D:\Download Firefox\ShareBook\ShareBook\ShareBook\ShareBook.BusinessLayer\bin\Debug\ShareBook.Entities.dll
+D:\Download Firefox\ShareBook\ShareBook\ShareBook\ShareBook.BusinessLayer\bin\Debug\FakeData.dll
+D:\Download Firefox\ShareBook\ShareBook\ShareBook\ShareBook.BusinessLayer\bin\Debug\ShareBook.Common.pdb
+D:\Download Firefox\ShareBook\ShareBook\ShareBook\ShareBook.BusinessLayer\bin\Debug\ShareBook.Core.pdb
+D:\Download Firefox\ShareBook\ShareBook\ShareBook\ShareBook.BusinessLayer\bin\Debug\ShareBook.DAL.pdb
+D:\Download Firefox\ShareBook\ShareBook\ShareBook\ShareBook.BusinessLayer\bin\Debug\ShareBook.DAL.dll.config
+D:\Download Firefox\ShareBook\ShareBook\ShareBook\ShareBook.BusinessLayer\bin\Debug\ShareBook.Entities.pdb
+D:\Download Firefox\ShareBook\ShareBook\ShareBook\ShareBook.BusinessLayer\bin\Debug\EntityFramework.xml
+D:\Download Firefox\ShareBook\ShareBook\ShareBook\ShareBook.BusinessLayer\bin\Debug\EntityFramework.SqlServer.xml
+D:\Download Firefox\ShareBook\ShareBook\ShareBook\ShareBook.BusinessLayer\bin\Debug\FakeData.pdb
+D:\Download Firefox\ShareBook\ShareBook\ShareBook\ShareBook.BusinessLayer\obj\Debug\ShareBook.BusinessLayer.csprojAssemblyReference.cache
+D:\Download Firefox\ShareBook\ShareBook\ShareBook\ShareBook.BusinessLayer\obj\Debug\ShareBook.BusinessLayer.csproj.CoreCompileInputs.cache
+D:\Download Firefox\ShareBook\ShareBook\ShareBook\ShareBook.BusinessLayer\obj\Debug\ShareBook.BusinessLayer.csproj.CopyComplete
+D:\Download Firefox\ShareBook\ShareBook\ShareBook\ShareBook.BusinessLayer\obj\Debug\ShareBook.BusinessLayer.dll
+D:\Download Firefox\ShareBook\ShareBook\ShareBook\ShareBook.BusinessLayer\obj\Debug\ShareBook.BusinessLayer.pdb

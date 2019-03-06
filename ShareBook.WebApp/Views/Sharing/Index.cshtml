@@ -1,0 +1,481 @@
+﻿@using ShareBook.Entities.EntityViewModels
+@model SharingViewModel
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<style>
+    #SharingsContainer {
+        margin-top: 25px;
+    }
+
+    #SharesInput {
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+
+    #TableDiv {
+        margin-top: 100px;
+    }
+</style>
+<div class="modal fade bd-example-modal-lg" id="MyModal">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+
+                <h4 id="ModalTitle"></h4>
+                <a href="#" class="close" data-dismiss="modal">&times;</a>
+            </div>
+            <div class="modal-body">
+
+                <form id="form" enctype="multipart/form-data">
+                    <fieldset id="SubmitForm">
+
+
+                        @Html.HiddenFor(x => x.Id, new { id = "ShareId" })
+
+                        <div class="form-group">
+                            <label class="col-lg-8 control-label" for="Slider Adı">Kategori</label>
+                            <div class="col-lg-12">
+                                @Html.DropDownListFor(x => x.CategoryId, ViewBag.Categories as List<SelectListItem>, "-- Bir Kategori Seçiniz --", new { @class = "form-control", id = "ShareCatId", required = "required" })
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-lg-8 control-label" for="Slider Adı">Başlık</label>
+                            <div class="col-lg-12">
+                                @Html.TextBoxFor(x => x.Title, new { @class = "form-control", id = "ShareTitle", placeholder = "Başlık Giriniz...", required = "required" })
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="col-lg-8 control-label" for="Slider Link">İçerik</label>
+                            <div class="col-lg-12">
+                                @Html.TextAreaFor(x => x.ShareContent, new { @class = "form-control", required = "required", id = "textcontent" })
+                            </div>
+                        </div>
+
+
+                        <div class="form-group" id="shareimagestate">
+                            <label class="col-lg-8 control-label" for="Slider Link">Paylaşımın Mevcut Resmi</label>
+                            <div class="col-lg-12">
+                                <img style="width:300px" id="ShareImage" src="@Model.ImageUrl" />
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="col-lg-8 control-label" for="UrunResim">Paylaşımın Yeni Resmi</label>
+                            <div class="col-md-12 col-sm-6 col-xs-12">
+                                <div class="fileupload fileupload-new" data-provides="fileupload">
+                                    <div class="fileupload-preview thumbnail" style="width:300px;height:95px"></div>
+                                    <div>
+                                        <span class="btn btn-file btn-primary"><span class="fileupload-new"><span class="fa fa-image"></span> Resim Seç</span><span class="fileupload-exists">Değiştir</span><input name="file" type="file" id="file" /></span>
+                                        <a href="#" name="sil" class="btn btn-danger fileupload-exists" data-dismiss="fileupload">Sil</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+
+                            <div class="col-lg-12">
+                                @Html.CheckBoxFor(x => x.isDraft, new { id = "ShareDraftState" })<label class="col-lg-8 control-label" for="Aktif">Taslak mı?</label>
+                            </div>
+                        </div>
+
+
+                        <div class="form-group">
+                            <button type="button" class="btn btn-block btn-success" id="SaveSlider">Save</button>
+                        </div>
+
+
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid" id="SharingsContainer">
+
+    <div class="row">
+
+
+        <div class="col-lg-12">
+            <div id="SharesInput">
+                <button class="btn btn-info" style="float:right" onclick="AddNewShare(0)">Yeni Paylaşım</button>
+
+
+                <div class="input-group col-md-4" style="float:right">
+                    <input class="form-control py-2" type="search" placeholder="Search..." id="Search" />
+                    <span class="input-group-append">
+                        <span class="btn btn-info">
+                            <i class="fa fa-search"></i>
+                        </span>
+                    </span>
+                </div>
+            </div>
+            <div style="width:100%;margin:0 auto" class="tablecontainer">
+
+                <div class="table-responsive" id="TableDiv">
+                    <table class="table table-hover">
+                        <thead>
+                            <tr>
+                                <th>Kategori</th>
+                                <th>Başlık</th>
+                                <th>İçerik</th>
+                                <th>Beğeni</th>
+                                <th>Yorum</th>
+                                <th>Resim</th>
+                                <th>Taslak</th>
+                                <th>Önizleme</th>
+                                <th>Edit</th>
+                                <th>Delete</th>
+                            </tr>
+                        </thead>
+                        <tfoot>
+                            <tr>
+                                <th>Kategori</th>
+                                <th>Başlık</th>
+                                <th>İçerik</th>
+                                <th>Beğeni</th>
+                                <th>Yorum</th>
+                                <th>Resim</th>
+                                <th>Taslak</th>
+                                <th>Önizleme</th>
+                                <th>Edit</th>
+                                <th>Delete</th>
+                            </tr>
+                        </tfoot>
+                        <tbody id="SharingList"></tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+@Bootstrap.ModalPopup(id: "modal_notdetail", title: "Paylaşım Detay", showCloseButton: true)
+
+<script src="~/Areas/Admin/Scripts/extra/jquery-1.10.2.min.js"></script>
+<script src="~/Scripts/jquery-3.3.1.min.js"></script>
+
+<script src="~/Scripts/self/sweetalert2.all.js"></script>
+<script src="~/Content/ckeditor/ckeditor.js"></script>
+<script type="text/javascript">
+
+
+
+
+    $.get("/Sharing/SharingList", null, DataBind);
+
+
+    function DataBind(SharingList) {
+        var setData = $("#SharingList");
+        var state = "";
+        if (SharingList.length>0) {
+            for (var i = 0; i < SharingList.length; i++) {
+                if (SharingList[i].isDraft == true) {
+                    state = "Evet"
+                }
+                else {
+                    state = "Hayır"
+                }
+                var Data = "<tr id='sharerow' class='row_" + SharingList[i].Id + "'>" +
+                    "<td>" + SharingList[i].CategoryTitle + "</td>" +
+                    "<td>" + SharingList[i].Title + "</td>" +
+                    "<td>" + SharingList[i].ShareContent + "</td>" +
+                    "<td>" + SharingList[i].LikeCount + "</td>" +
+                    "<td>" + SharingList[i].CommentCount + "</td>" +
+                    "<td><img style='width:200px' src='" + SharingList[i].ImageUrl + "'></img></td>" +
+                    "<td>" + state + "</td>" +
+                    "<td><button data-toggle='modal' data-target='#modal_notdetail' data-note-id='" + SharingList[i].Id + "' class='btn btn-outline-info btn-sm'>" + "Önizle" + "</button></td>" +
+                    "<td>" + "<button type='button'  onclick='EditShareRecord(" + SharingList[i].Id + ")'  class='btn btn-outline-primary btn-sm' title='Paylaşımı Güncelle'><span class='fa fa-pencil'></span> Güncelle</button>" + "</td>" +
+                    "<td>" + "<button type='button' onclick='DeleteShareRecord(" + SharingList[i].Id + ")'  class='btn btn-outline-danger btn-sm' title='Paylaşımı Sil'><span class='fa fa-trash'></span> Sil</button>" + "</td></tr>";
+                setData.append(Data);
+
+            }
+        }
+        else {
+            var Data = "<tr style='background:#ddd'><td colspan='10' style='text-align:center;'>Hiç Paylaşımınız Bulunmamaktadır.</td></tr>";
+                setData.append(Data);
+        }
+        
+        
+
+
+
+    }
+
+
+
+    function AddNewShare(CategoryId) {
+        $("#form")[0].reset();
+        $("#ShareId").val(0);
+        CKEDITOR.instances['textcontent'].setData("");
+        $("#ModalTitle").html("Yeni Bir Paylaşım Ekle");
+        $('#MyModal').modal();
+        $("#shareimagestate").hide();
+
+    }
+
+
+
+
+    function EditShareRecord(ShareId) {
+
+            $("#ModalTitle").html("Paylaşımı Güncelle");
+            $("#MyModal").modal();
+            $("#shareimagestate").show();
+
+
+            $.ajax({
+            type: "GET",
+            url: '@Url.Action("GetShareById", "Sharing")',
+            contentType: "application/json; charset=utf-8",
+            data: { id: ShareId },
+            dataType: "json",
+            success: function (data) {
+
+
+
+                $("#ShareId").val(data.Id);
+
+                $("#ShareTitle").val(data.Title);
+                $("#ShareCatId").val(data.CategoryId);
+
+
+                CKEDITOR.instances['textcontent'].setData(data.ShareContent);
+
+                $("#ShareImage").removeAttr("src");
+                $("#ShareImage").attr("src", data.ImageUrl);
+
+
+
+                $("#ShareDraftState").val(data.isDraft);
+
+                if (data.isDraft) {
+                    $('#ShareDraftState').attr('checked', 'checked');
+                }
+                else {
+
+
+                    $('#ShareDraftState').removeAttr('checked');
+                }
+
+
+            }
+            }).fail(function (jqXHR, textStatus, errorThrown) {
+
+                swal({
+                    type: 'error',
+                    title: 'Oops...',
+                    text: textStatus + ', ' + errorThrown,
+                    footer: '<a href>Why do I have this issue?</a>',
+                })
+            });
+    }
+
+
+
+
+    $("#SaveSlider").click(function () {
+
+
+
+        var id = $("#ShareId").val();
+        var catid = $("#ShareCatId").val();
+        var sharetitle = $("#ShareTitle").val();
+        var image = $("#ShareImage").attr('src');
+        var isdraft = $('#ShareDraftState').is(":checked");
+        var sharecontent = CKEDITOR.instances['textcontent'].getData();
+
+            var formData = new FormData();
+            var totalFiles = document.getElementById("file").files.length;
+
+            var file = document.getElementById("file").files[0];
+
+            formData.append("file",file);
+            formData.append("title", sharetitle);
+            formData.append("id",id);
+            formData.append("categoryid", catid);
+            formData.append("imageurl",image);
+            formData.append("isdraft", isdraft);
+            formData.append("sharecontent", sharecontent);
+
+
+            $.ajax({
+                type: "Post",
+                url: '@Url.Action("SaveDataInDatabase", "Sharing")',
+                data: formData,
+                contentType: false,
+                processData: false,
+                success: function (result) {
+
+                     //window.location.href = "/Admin/Category/Index";
+                    
+
+
+                     $("#MyModal").modal("hide");
+
+
+                     if (result == 1) {
+                         //toastr.warning("Kategori başarıyla güncellendi");
+                         swal({
+                             position: 'center',
+                             type: 'warning',
+                             title: 'Paylaşım Güncellendi',
+                             showConfirmButton: false,
+                             timer: 2500
+                         })
+
+                     }
+                     else if (result == 2) {
+                        // toastr.success("Kategori başarıyla eklendi");
+
+                         swal({
+                             position: 'center',
+                             type: 'success',
+                             title: 'Paylaşım Eklendi',
+                             showConfirmButton: false,
+                             timer: 2500
+                         })
+
+                     }
+                     else {
+                         toastr.error("Hata!!!!");
+                     }
+
+                     location.reload();
+                }
+
+            })
+
+        });
+
+
+
+
+    $(function () {
+
+        $('#modal_notdetail').on('show.bs.modal', function (e) {
+            var btn = $(e.relatedTarget);
+            note_id = btn.data("note-id");
+            $("#modal_notdetail_body").load("/Sharing/ShowSharingDetail/" + note_id);
+        });
+
+
+    });
+
+
+
+
+
+
+    function DeleteShareRecord(ShareId) {
+        swal({
+            title: 'Emin misiniz?',
+            text: "Paylaşımı silmek istediğinizden!",
+            type: 'warning',
+            showCancelButton: true,
+            confirmButtonColor: '#C9302C',
+            cancelButtonColor: '#EC971F',
+            confirmButtonText: 'Evet'
+        }).then((result) => {
+            if (result.value) {
+
+
+                $.ajax({
+                    method: "GET",
+                    url: "/Sharing/DeleteShare/" + ShareId,
+
+                }).done(function (data) {
+                    if (data.Result) {
+
+
+                        swal({
+                            position: 'center',
+                            type: 'success',
+                            title: 'Paylaşım Silindi',
+                            showConfirmButton: false,
+                            timer: 1500
+                        })
+
+                        $(".row_" + ShareId).remove();
+                        location.reload();
+                    }
+                    else {
+                        swal({
+                            type: 'error',
+                            title: 'Oops...',
+                            text: 'Birşeyler ters gitti!',
+                            footer: '<a href>Why do I have this issue?</a>',
+                        })
+                    }
+                }).fail(function () {
+                    swal({
+                        type: 'error',
+                        title: 'Oops...',
+                        text: 'Sunucu ile bağlantı kurulamadı.!',
+                        footer: '<a href>Why do I have this issue?</a>',
+                    })
+
+                });
+            }
+        })
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+    var editor = CKEDITOR.instances['textcontent'];
+    if (editor) {
+        editor.destroy(true);
+    }
+
+    CKEDITOR.replace('textcontent', {
+
+        enterMode: CKEDITOR.ENTER_BR,
+
+
+    });
+
+
+
+
+
+
+
+    $("#Search").on("keyup", function () {
+        var value = $(this).val();
+
+        $("table tr").each(function (index) {
+            if (index !== 0) {
+                $row = $(this);
+
+                var id = $.map($row.find('td'), function (element) {
+                    return $(element).text()
+                }).join(' ');
+
+                if (id.toLowerCase().indexOf(value.toLowerCase()) < 0) {
+                    $row.hide();
+                  
+                } else {
+                    $row.show();
+                }
+            }
+        });
+    });
+</script>
+

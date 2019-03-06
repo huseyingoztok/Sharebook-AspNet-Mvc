@@ -1,0 +1,213 @@
+﻿@using ShareBook.Entities
+@using ShareBook.WebApp.Models
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Shop Homepage - Start Bootstrap Template</title>
+
+    <!-- Bootstrap core CSS -->
+
+
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/Content/datatable/myDataTablecss.css" rel="stylesheet" />
+    <link href="~/Content/datatable/jquery-ui.min.css" rel="stylesheet" />
+    <link href="~/Content/selfcss/sitelogo.css" rel="stylesheet" />
+    <!-- Custom styles for this template -->
+
+    <!-- Toastr Css-->
+    <link href="~/Content/toastr.css" rel="stylesheet" />
+    
+    <link href="~/Content/selfcss/shop-homepage.css" rel="stylesheet" />
+    <link href="~/Content/font-awesome.min.css" rel="stylesheet" />
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <link href="~/Content/bootstrap-fileupload.min.css" rel="stylesheet" />
+    <!-- AŞAĞIDAKİ DÜZELTİLECEK-->
+    @*<link href="https://fonts.googleapis.com/css?family=Do+Hyeon" rel="stylesheet">*@
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa|Exo:400,600i|Gugi|Rajdhani:700|Jura:500:Armata|Prosto+One|Merienda|Glegoo|Titillium+Web|Monoton|Oxygen|Exo+2" rel="stylesheet">
+    <link href="~/Content/ckeditor/contents.css" rel="stylesheet" />
+</head>
+
+<body id="page-top" style="font-family: 'Exo 2', sans-serif;">
+
+    <!-- Navigation -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark  fixed-top" style="background: linear-gradient(45deg,darkslategray, darkcyan);">
+        <div class="container-fluid" style="font-family: 'Exo', sans-serif;">
+            <a id="siteLogo" class="navbar-brand" href="/Home/Index" style="font-size:xx-large"><span class="fa fa-share-alt-square"></span> ShareBook</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/Home/MostLiked"><span class="fa fa-heart"></span> En Beğenilenler<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/Home/LastShares"><span class="fa fa-book"></span> Son Paylaşımlar</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="/Home/About"><span class="fa fa-info"></span> Hakkımızda</a>
+                    </li>
+
+                </ul>
+
+                <ul class="nav navbar-nav navbar-right">
+
+                    @if (CurrentSession.shareBookUser != null)
+                    {
+
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <span class="fa fa-user-circle"></span> @CurrentSession.shareBookUser.Username
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="/Home/ShowProfile"> <img src="@CurrentSession.shareBookUser.ProfilPhoto" class="border-0 rounded-circle" alt="User Profil Image" style="width:50px" /> <span class="h5">Profile</span></a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="/Sharing/Index"><span class="fa fa-list"></span> Paylaşımlarım</a>
+
+                                <a class="dropdown-item" href="/Home/MyLikedNotes"><span class="fa fa-heart"></span> Beğendiklerim</a>
+                                <a class="dropdown-item" href="/Home/MyCommentNotes"><span class="fa fa-commenting"></span> Yorum Yaptıklarım</a>
+
+                            </div>
+                        </li>
+
+
+
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="/Home/Logout"><span class="fa fa-sign-out"></span> Çıkış Yap</a>
+                        </li>
+                    }
+                    else
+                    {
+                        <li class="nav-item">
+                            <a class="nav-link" href="/Home/Register"><span class="fa fa-user-plus"></span> Üye Ol</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/Home/Login"><span class="fa fa-sign-in"></span> Giriş Yap</a>
+                        </li>
+                    }
+
+
+
+
+
+
+                </ul>
+
+
+                @using (Html.BeginForm("Search", "Home", FormMethod.Get, new { @class = "form-inline my-2 my-lg-0" }))
+                {
+                    <input id="search" name="search" class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-light my-2 my-sm-0" type="submit"><span class="fa fa-search"></span> Search</button>
+                }
+
+
+            </div>
+        </div>
+    </nav>
+
+    <!-- fixed-top -->
+    <!-- Page Content -->
+    @RenderBody()
+    <!-- /.container -->
+    <!-- Footer -->
+    @*bg-dark*@
+    <footer class="py-xl-5" style="background: linear-gradient(45deg,darkslategray, darkcyan);">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 text-center text-white">
+                    <h5><strong>Follow Us</strong></h5>
+                    <hr />
+                    <a class="btn btn-social-icon btn-facebook">
+                        <span class="fa fa-facebook"></span>
+                    </a>
+                    <a class="btn btn-social-icon btn-twitter">
+                        <span class="fa fa-twitter"></span>
+                    </a>
+                    <a class="btn btn-social-icon btn-instagram">
+                        <span class="fa fa-instagram"></span>
+                    </a>
+
+
+                </div>
+
+                <div class="col-lg-4 text-center text-white">
+                    <h5><span class="fa fa-share-alt-square"></span> <strong>ShareBook</strong></h5>
+                    <hr />
+                    <p class="m-0 text-center text-white">Tüm Hakları saklıdır. <br />Copyright&copy; ShareBook @DateTime.Now.Year</p>
+                </div>
+
+                <div class="col-lg-4 text-center text-white">
+                    <h5><strong>Bilgi Almak İçin</strong></h5>
+                    <hr />
+                    <div class="col-md-10 offset-md-2">
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="E-posta adresiniz..." />
+                            <span class="input-group-btn">
+                                <button type="submit" class="btn btn-outline-light">
+                                    <span class="fa fa-send"> Gönder</span>
+                                </button>
+                            </span>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+    </footer>
+
+    <a class="scroll-to-top rounded" href="#page-top">
+        <i class="fa fa-angle-up"></i>
+    </a>
+
+    <!-- Bootstrap core JavaScript -->
+
+    <script src="~/Scripts/jquery-3.3.1.min.js"></script>
+    <script src="~/Scripts/bootstrap.bundle.min.js"></script>
+    <script src="~/Scripts/bootstrap-fileupload.js"></script>
+
+
+    <script src="~/Scripts/datatable/jquery.validate.min.js"></script>
+    <script src="~/Scripts/datatable/jquery.validate.unobtrusive.min.js"></script>
+    <script src="~/Scripts/datatable/myDataTable.js"></script>
+    <script src="~/Scripts/datatable/jquery-ui-1.12.1.min.js"></script>
+    <script src="~/Areas/Admin/Scripts/js2/sb-admin.js"></script>
+
+    <!-- Toastr-->
+    <script src="~/Scripts/toastr.js"></script>
+    @*<script src="~/Scripts/self/sweetalert2.all.js"></script>*@
+
+    <script type="text/javascript">
+        var pageTitle = $("title").text();
+        // Change page title on blur
+        $(window).blur(function () {
+            $("title").text("❤ Bizi Unutma!!! ");
+        });
+        // Change page title back on focus
+        $(window).focus(function () {
+            $("title").text(pageTitle);
+        });
+    </script>
+</body>
+
+</html>

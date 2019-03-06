@@ -1,0 +1,35 @@
+﻿@using ShareBook.Entities
+@model Sharing
+
+
+<div class="col-lg-12 col-md-12 mb-4" style="margin-bottom:20px" data-note-id="@Model.Id">
+    <div class="card h-100">
+        <a href="">
+            @if (Model.ImageUrl != null)
+            {
+                <img style="width:400px;" class="card-img-top center" src="@Model.ImageUrl" alt="@Model.Title">
+            }
+            else
+            {
+                <img class="card-img-top" src="http://placehold.it/700x200" alt="@Model.Title">
+            }
+        </a>
+        <div class="card-body">
+            <h6 class="text-left">
+                <span class="fa fa-user"></span> @Model.Owner.Username<br />
+                <span class="fa fa-clock-o"></span> @Model.ModifiedOn.ToString("dd-MM-yy HH:mm")
+            </h6>
+            <h4 class="card-title">
+                <span class="text-info">@Model.Title</span>
+            </h4>
+
+            
+                <p class="card-text">@Html.Raw(Model.ShareContent)</p>
+            
+
+        </div>
+
+        
+    </div>
+</div>
+

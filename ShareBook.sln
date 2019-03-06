@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShareBook.WebApp", "ShareBook.WebApp\ShareBook.WebApp.csproj", "{1D0508FF-8C5F-4222-8129-F15D0CBAE233}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShareBook.BusinessLayer", "ShareBook.BusinessLayer\ShareBook.BusinessLayer.csproj", "{56694D12-C47B-484B-8F91-1DAAE53B78EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShareBook.DAL", "ShareBook.DAL\ShareBook.DAL.csproj", "{C7B737CE-68B4-483E-9C99-B48461B67588}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShareBook.Entities", "ShareBook.Entities\ShareBook.Entities.csproj", "{DC4FCDC3-4EAF-4EC4-A965-A97CE4AD2B88}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShareBook.Common", "ShareBook.Common\ShareBook.Common.csproj", "{F66E96C0-08A0-4BAD-A62A-FBC22A954C15}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShareBook.Core", "ShareBook.Core\ShareBook.Core.csproj", "{A7132034-9391-4406-9B89-52F7A359F4E3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1D0508FF-8C5F-4222-8129-F15D0CBAE233}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D0508FF-8C5F-4222-8129-F15D0CBAE233}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D0508FF-8C5F-4222-8129-F15D0CBAE233}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D0508FF-8C5F-4222-8129-F15D0CBAE233}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56694D12-C47B-484B-8F91-1DAAE53B78EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56694D12-C47B-484B-8F91-1DAAE53B78EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56694D12-C47B-484B-8F91-1DAAE53B78EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56694D12-C47B-484B-8F91-1DAAE53B78EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7B737CE-68B4-483E-9C99-B48461B67588}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7B737CE-68B4-483E-9C99-B48461B67588}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7B737CE-68B4-483E-9C99-B48461B67588}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7B737CE-68B4-483E-9C99-B48461B67588}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC4FCDC3-4EAF-4EC4-A965-A97CE4AD2B88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC4FCDC3-4EAF-4EC4-A965-A97CE4AD2B88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC4FCDC3-4EAF-4EC4-A965-A97CE4AD2B88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC4FCDC3-4EAF-4EC4-A965-A97CE4AD2B88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F66E96C0-08A0-4BAD-A62A-FBC22A954C15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F66E96C0-08A0-4BAD-A62A-FBC22A954C15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F66E96C0-08A0-4BAD-A62A-FBC22A954C15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F66E96C0-08A0-4BAD-A62A-FBC22A954C15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7132034-9391-4406-9B89-52F7A359F4E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7132034-9391-4406-9B89-52F7A359F4E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7132034-9391-4406-9B89-52F7A359F4E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7132034-9391-4406-9B89-52F7A359F4E3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C5E722AB-690A-4138-B051-6E4C31E940C7}
+	EndGlobalSection
+EndGlobal

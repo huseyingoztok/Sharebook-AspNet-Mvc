@@ -1,0 +1,72 @@
+﻿@using ShareBook.WebApp.ViewModels
+@model  WarningViewModel
+
+
+@{
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutPageAdmin2.cshtml";
+}
+
+<link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+<section class="h-100 my-login-page my-5">
+    <div class="container-fluid h-100">
+        <div class="row justify-content-md-center h-100">
+            <div class="card-wrapper">
+                @if (Model.IsRedirecting)
+                {
+                    <div class="card fat">
+                        <div class="card-body">
+                            <h4 class="card-title text-center">@Model.Header</h4>
+                            <h2 class="text-center">
+                                <span class="fa fa-warning text-warning" style="display:none">   @Model.Tittle</span>
+                            </h2>
+                            <hr style="display:none" />
+                            <p class="text-justify text-warning" style=";display:none">
+
+
+                                @foreach (var msg in Model.Items)
+                                {
+                                    @msg<br />
+                                }
+
+                            </p>
+
+                        </div>
+                    </div>
+                }
+
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<script src="~/Scripts/jquery-3.3.1.min.js"></script>
+
+@{
+    string js = string.Empty;
+    js = "setTimeout(function () {window.location = '" + Model.RedirectingUrl + "';}," + Model.RedirectingTimeout + ");";
+}
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('footer').hide();
+
+        setTimeout(function () {
+
+            $('h4').hide();
+        }, 2000);
+
+
+        setTimeout(function () {
+
+            $('span').show();
+            $('.text-justify').show();
+            $('hr').show();
+        }, 2000);
+
+        setTimeout(function () {
+             @Html.Raw(js);
+        },3000);
+
+    });
+</script>

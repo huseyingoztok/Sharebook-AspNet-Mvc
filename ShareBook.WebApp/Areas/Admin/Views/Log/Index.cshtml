@@ -1,0 +1,77 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutPageAdmin2.cshtml";
+}
+
+@using ShareBook.Entities
+@model List<SiteLog>
+
+<ol class="breadcrumb">
+    <li class="breadcrumb-item">
+        <h3 class="fa fa-archive text-primary"> Log Listesi</h3>
+    </li>
+
+</ol>
+@if (Model.Count > 0)
+{
+<div class="card mb-3">
+    <div class="card-header">
+        <i class="fa fa-table"></i> Loglar
+    </div>
+    <div class="card-body">
+
+        <div class="table-responsive">
+            <table class="table table-hover table-responsive-lg">
+                <thead>
+                    <tr>
+                        <th>Kullanıcı Adı</th>
+                        <th>Tarih</th>
+                        <th>Action Name</th>
+                        <th>Controller Name</th>
+                        <th>Açıklama</th>
+                    </tr>
+                </thead>
+                <tfoot>
+                    <tr>
+                        <th>Kullanıcı Adı</th>
+                        <th>Tarih</th>
+                        <th>Action Name</th>
+                        <th>Controller Name</th>
+                        <th>Açıklama</th>
+                    </tr>
+                </tfoot>
+                <tbody>
+                    @for (int i = 0; i < Model.Count; i++)
+                    {
+                        <tr>
+                            <td>@Model[i].Username</td>
+                            <td>@Model[i].LogDate</td>
+                            <td>@Model[i].ActionName</td>
+                            <td>@Model[i].ControllerName</td>
+                            <td>@Model[i].Info</td>
+
+
+                        </tr>
+                    }
+                </tbody>
+
+            </table>
+        </div>
+    </div>
+    <div class="card-footer small text-muted"></div>
+</div>
+
+}
+else
+{
+
+    <div class="alert alert-warning col-md-6" role="alert">
+        Herhangi bir Log kaydı yok.
+    </div>
+}
+
+
+
+
+

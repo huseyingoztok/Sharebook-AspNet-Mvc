@@ -1,0 +1,34 @@
+﻿@using ShareBook.BusinessLayer
+@using ShareBook.Entities
+@using ShareBook.WebApp.Filters
+@using ShareBook.Entities.EntityViewModels
+
+
+
+
+@{ 
+    CategoryManager cm = new CategoryManager();
+    List<CategoryViewModel> lstCat = cm.ListQueryable().Where(x => !x.isDeleted && x.isActive).Select(x=> new CategoryViewModel{
+        Title=x.Title,
+        Description=x.Description,
+        Icon=x.Icon,
+        Id=x.Id
+    }).ToList();
+}
+
+
+
+
+
+
+
+
+    <div class="list-group my-4" id="listdiv">
+        <a href="/Home/Index" class="list-group-item active" style="background-color:darkcyan">
+            Tüm Kategoriler
+        </a>
+        @foreach (var item in lstCat)
+        {
+            <a href="/Home/SelectCategory/@item.Id/@SeoUrl.ToUrl(item.Title)" title="@item.Description" class="list-group-item text-info"><span class="@item.Icon"></span> @item.Title</a>
+        }
+    </div>

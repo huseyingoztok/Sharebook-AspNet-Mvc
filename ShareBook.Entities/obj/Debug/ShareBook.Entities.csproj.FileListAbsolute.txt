@@ -1,0 +1,36 @@
+C:\Users\HUSEYIN-PC\source\repos\ShareBook\ShareBook.Entities\bin\Debug\ShareBook.Entities.dll
+C:\Users\HUSEYIN-PC\source\repos\ShareBook\ShareBook.Entities\bin\Debug\ShareBook.Entities.pdb
+C:\Users\HUSEYIN-PC\source\repos\ShareBook\ShareBook.Entities\obj\Debug\ShareBook.Entities.csprojResolveAssemblyReference.cache
+C:\Users\HUSEYIN-PC\source\repos\ShareBook\ShareBook.Entities\obj\Debug\ShareBook.Entities.csproj.CoreCompileInputs.cache
+C:\Users\HUSEYIN-PC\source\repos\ShareBook\ShareBook.Entities\obj\Debug\ShareBook.Entities.dll
+C:\Users\HUSEYIN-PC\source\repos\ShareBook\ShareBook.Entities\obj\Debug\ShareBook.Entities.pdb
+D:\Bitirme\ShareBook\ShareBook.Entities\bin\Debug\ShareBook.Entities.dll
+D:\Bitirme\ShareBook\ShareBook.Entities\bin\Debug\ShareBook.Entities.pdb
+D:\Bitirme\ShareBook\ShareBook.Entities\obj\Debug\ShareBook.Entities.csprojResolveAssemblyReference.cache
+D:\Bitirme\ShareBook\ShareBook.Entities\obj\Debug\ShareBook.Entities.csproj.CoreCompileInputs.cache
+D:\Bitirme\ShareBook\ShareBook.Entities\obj\Debug\ShareBook.Entities.dll
+D:\Bitirme\ShareBook\ShareBook.Entities\obj\Debug\ShareBook.Entities.pdb
+D:\Bitirme\ShareBook\ShareBook\ShareBook.Entities\bin\Debug\ShareBook.Entities.dll
+D:\Bitirme\ShareBook\ShareBook\ShareBook.Entities\bin\Debug\ShareBook.Entities.pdb
+D:\Bitirme\ShareBook\ShareBook\ShareBook.Entities\obj\Debug\ShareBook.Entities.csprojResolveAssemblyReference.cache
+D:\Bitirme\ShareBook\ShareBook\ShareBook.Entities\obj\Debug\ShareBook.Entities.csproj.CoreCompileInputs.cache
+D:\Bitirme\ShareBook\ShareBook\ShareBook.Entities\obj\Debug\ShareBook.Entities.dll
+D:\Bitirme\ShareBook\ShareBook\ShareBook.Entities\obj\Debug\ShareBook.Entities.pdb
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook\ShareBook.Entities\bin\Debug\ShareBook.Entities.dll
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook\ShareBook.Entities\bin\Debug\ShareBook.Entities.pdb
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook\ShareBook.Entities\obj\Debug\ShareBook.Entities.csprojAssemblyReference.cache
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook\ShareBook.Entities\obj\Debug\ShareBook.Entities.csproj.CoreCompileInputs.cache
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook\ShareBook.Entities\obj\Debug\ShareBook.Entities.dll
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook\ShareBook.Entities\obj\Debug\ShareBook.Entities.pdb
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook.Entities\bin\Debug\ShareBook.Entities.dll
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook.Entities\bin\Debug\ShareBook.Entities.pdb
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook.Entities\obj\Debug\ShareBook.Entities.csprojAssemblyReference.cache
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook.Entities\obj\Debug\ShareBook.Entities.csproj.CoreCompileInputs.cache
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook.Entities\obj\Debug\ShareBook.Entities.dll
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook.Entities\obj\Debug\ShareBook.Entities.pdb
+D:\Download Firefox\ShareBook\ShareBook\ShareBook\ShareBook.Entities\bin\Debug\ShareBook.Entities.dll
+D:\Download Firefox\ShareBook\ShareBook\ShareBook\ShareBook.Entities\bin\Debug\ShareBook.Entities.pdb
+D:\Download Firefox\ShareBook\ShareBook\ShareBook\ShareBook.Entities\obj\Debug\ShareBook.Entities.csprojAssemblyReference.cache
+D:\Download Firefox\ShareBook\ShareBook\ShareBook\ShareBook.Entities\obj\Debug\ShareBook.Entities.csproj.CoreCompileInputs.cache
+D:\Download Firefox\ShareBook\ShareBook\ShareBook\ShareBook.Entities\obj\Debug\ShareBook.Entities.dll
+D:\Download Firefox\ShareBook\ShareBook\ShareBook\ShareBook.Entities\obj\Debug\ShareBook.Entities.pdb

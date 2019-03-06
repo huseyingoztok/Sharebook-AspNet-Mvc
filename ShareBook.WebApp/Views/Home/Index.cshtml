@@ -1,0 +1,116 @@
+﻿@using ShareBook.Entities.EntityViewModels
+@using ShareBook.Entities
+@using ShareBook.WebApp.Models
+@model List<SharingViewModel>
+@{
+    ViewBag.Title = "Index";
+}
+<style>
+    .center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        height: auto;
+    }
+</style>
+<div class="container-fluid" style="margin-top:10px">
+
+    <div class="row">
+
+        <div class="col-lg-3">
+            @Html.Partial("_PartialCategories")
+
+        </div>
+        <!-- /.col-lg-3 -->
+
+        <div class="col-lg-9">
+
+           @Html.Partial("_PartialPageSlider")
+
+            <div class="row">
+                @foreach (var item in Model)
+                {
+                    <div class="col-lg-6 col-md-6 mb-4" style="margin-bottom:20px" data-note-id="@item.Id">
+                        <div class="card h-100">
+
+                            @if (string.IsNullOrEmpty(item.ImageUrl) == false)
+                            {
+                                <img style="width:540px" class="card-img-top center" src="@item.ImageUrl" alt="@item.Title">
+                            }
+                            else
+                            {
+                                <img class="card-img-top" src="http://placehold.it/700x200" alt="@item.Title">
+                            }
+
+                            <div class="card-body">
+                                <h6 class="text-left">
+                                    <span class="fa fa-user"></span> @item.Owner.Username<br />
+                                    <span class="fa fa-clock-o"></span> @item.ModifiedOn.ToString("dd-MM-yy HH:mm")
+                                </h6>
+                                <h4 class="card-title">
+                                    <span class="text-info">@item.Title</span>
+                                </h4>
+
+                                @if (string.IsNullOrEmpty(item.ShareContent) == false && item.ShareContent.Length >= 120)
+                                {
+                                    <p class="card-text">@(Html.Raw(item.ShareContent.Substring(0, 80) + " ... "))<a href="" class="card-link" data-toggle="modal" data-target="#modal_notdetail" data-note-id="@item.Id">Read More</a></p>
+
+                                }
+                                else
+                                {
+                                    <p class="card-text">@Html.Raw(item.ShareContent)</p>
+                                }
+
+                            </div>
+
+                            <div class="card-footer">
+                                <p class="pull-right">
+                                    <button class="btn btn-outline-primary btn-sm" data-toggle="modal" data-target="#modal_comment" data-note-id="@item.Id">
+                                        <span class="fa fa-comment"></span><span class="comment-count"></span> @item.Comments.Where(x=>!x.isDelete&&!x.Owner.isDeleted).ToList().Count Yorum Yap
+                                    </button>
+                                </p>
+                              @if (CurrentSession.shareBookUser == null)
+                              {
+                                <p>
+                                    <button disabled class="btn btn-outline-danger btn-sm" data-liked="false" data-note-id="@item.Id">
+                                        <span class="fa fa-heart"></span>&nbsp;<span class="like-count">@item.Likes.Where(x=>!x.likedUser.isDeleted).ToList().Count</span>
+                                    </button>
+                                </p>
+                              }
+                              else
+                              {
+                                <p>
+                                    <button class="btn btn-outline-danger btn-sm" data-liked="false" data-note-id="@item.Id">
+                                        <span class="fa fa-heart"></span>&nbsp;<span class="like-count">@item.Likes.Where(x => !x.likedUser.isDeleted).ToList().Count</span>
+                                    </button>
+                                </p>
+                              }
+
+
+                            </div>
+                        </div>
+                    </div>
+                }
+               
+            </div>
+            <!-- /.row -->
+
+        </div>
+        <!-- /.col-lg-9 -->
+
+    </div>
+    <!-- /.row -->
+
+</div>
+
+
+@Bootstrap.ModalPopup(id: "modal_comment", title: "Beğeniler ve Yorumlar", showCloseButton: true)
+@Bootstrap.ModalPopup(id: "modal_notdetail", title: "Paylaşım Detay", showCloseButton: true)
+
+
+<script src="~/Scripts/jquery-3.3.1.min.js"></script>
+<script src="~/Scripts/self/comments.js"></script>
+<script src="~/Scripts/self/like.js"></script>
+<script src="~/Scripts/self/sharedetail.js"></script>
+

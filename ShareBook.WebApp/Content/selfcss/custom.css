@@ -1,0 +1,28 @@
+.main-section {
+    border: 1px solid darkcyan;
+    background-color: #fff;
+}
+.profile-header{
+	background-color: darkcyan;
+	height:150px;
+}
+.user-detail{
+	margin:-50px 0px 30px 0px;
+}
+.user-detail img{
+	height:100px;
+	width:100px;
+    border:solid 1px darkcyan;
+}
+.user-detail h5{
+	margin:15px 0px 5px 0px;
+}
+.user-social-detail {
+    padding: 15px 0px;
+    background-color: darkcyan;
+}
+.user-social-detail a i{
+	color:#fff;
+	font-size:23px;
+	padding: 0px 5px;
+}

@@ -1,0 +1,396 @@
+﻿@using ShareBook.Entities.EntityViewModels
+@model  SliderViewModel
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutPageAdmin2.cshtml";
+}
+<ol class="breadcrumb">
+    <li class="breadcrumb-item">
+        <h3 class="fa fa-sliders text-primary"> Slider Listesi</h3>
+    </li>
+
+</ol>
+<div class="card mb-3">
+    <div class="card-header">
+        <i class="fa fa-table"></i> Sliderlar
+
+
+        <button class="btn btn-info" style="float:right" onclick="AddNewSlider(0)">Yeni Slider Ekle</button>
+
+
+        <div class="input-group col-md-4" style="float:right">
+            <input class="form-control py-2" type="search" placeholder="Search..." id="Search" />
+            <span class="input-group-append">
+                <span class="btn btn-info">
+                    <i class="fa fa-search"></i>
+                </span>
+            </span>
+        </div>
+
+    </div>
+    <div class="card-body">
+
+        <div class="table-responsive">
+            <table class="table table-hover">
+                <thead>
+                    <tr>
+                        <th style="width:23%">Adı</th>
+                        <th style="width:22%">Link</th>
+                        <th style="width:3%">Öncelik</th>
+                        <th style="width:35%">Resim</th>
+                        <th style="width:5%">isActive</th>
+                        <th style="width:7%">Güncelle</th>
+                        <th style="width:5%">Sil</th>
+                    </tr>
+                </thead>
+                <tfoot>
+                    <tr>
+                        <th>Adı</th>
+                        <th>Link</th>
+                        <th>Öncelik</th>
+                        <th>Resim</th>
+                        <th>isActive</th>
+                        <th>Güncelle</th>
+                        <th>Sil</th>
+                    </tr>
+                </tfoot>
+                <tbody id="SliderList"></tbody>
+            </table>
+        </div>
+    </div>
+    <div class="card-footer small text-muted"></div>
+</div>
+
+
+<div class="modal fade" id="MyModal">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+
+                <h4 id="ModalTitle"></h4>
+                <a href="#" class="close" data-dismiss="modal">&times;</a>
+            </div>
+            <div class="modal-body">
+                <form id="form" enctype="multipart/form-data">
+                    <fieldset id="SubmitForm">
+                        @Html.ValidationSummary(false, "", new { id = "validationSummary" })
+                        @Html.HiddenFor(x => x.Id, new { @id = "SliderId" })
+
+                        <div class="form-group">
+                            <label class="col-lg-8 control-label" for="Slider Adı">Slider Adı</label>
+                            <div class="col-lg-8">
+                                @Html.TextBoxFor(x => x.Name, new { @class = "form-control", required = "required", @placeholder = "Slider adı...", id = "SliderName" })
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-lg-8 control-label" for="Slider Adı">Slider Url</label>
+                            <div class="col-lg-8">
+                                @Html.TextBoxFor(x => x.Url, new { @class = "form-control", required = "required", @placeholder = "Slider url...", id = "SliderUrl" })
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="col-lg-8 control-label" for="Slider Link">Slider Öncelik</label>
+                            <div class="col-lg-8">
+                                @Html.TextBoxFor(x => x.Priority, new { @class = "form-control", required = "required", @placeholder = "Öncelik...", id = "SliderPriority", type = "number" })
+                            </div>
+                        </div>
+
+
+                        <div class="form-group" id="SliderMevcutResim">
+                            <label class="col-lg-8 control-label" for="Slider Link">Slider Mevcut Resim</label>
+                            <div class="col-lg-8">
+                                <img style="width:300px" id="SliderImage" />
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="col-lg-8 control-label" for="UrunResim">Slider Resmi</label>
+                            <div class="col-md-8 col-sm-6 col-xs-12">
+                                <div class="fileupload fileupload-new" data-provides="fileupload">
+                                    <div class="fileupload-preview thumbnail" style="width:300px;height:95px"></div>
+                                    <div>
+                                        <span class="btn btn-file btn-primary"><span class="fileupload-new"><span class="fa fa-image"></span> Resim Seç</span><span class="fileupload-exists">Değiştir</span><input name="file" type="file" id="file" /></span>
+                                        <a href="#" name="sil" class="btn btn-danger fileupload-exists" data-dismiss="fileupload">Sil</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="col-lg-8 control-label" for="Aktif">Aktif</label>
+                            <div class="col-lg-8">
+                                @Html.CheckBoxFor(x => x.isActive, new { id = "SliderActive" })
+                            </div>
+                        </div>
+
+
+                        <div class="form-group">
+                            <button type="button"  class="btn btn-block btn-success" id="SaveSlider">Save</button>
+                        </div>
+                    </fieldset>
+                </form>
+
+            </div>
+        </div>
+    </div>
+</div>
+<script src="~/Scripts/toastr.min.js"></script>
+<script src="~/Scripts/toastr.js"></script>
+<script src="~/Areas/Admin/Scripts/extra/jquery-1.10.2.min.js"></script>
+<script src="~/Areas/Admin/Scripts/js/jquery.min.js"></script>
+<script>
+
+
+
+
+
+        $.get("/Slider/GetSliderList", null, DataBind);
+
+
+        function DataBind(SliderList) {
+            var setData = $("#SliderList");
+            var state = "";
+            for (var i = 0; i < SliderList.length; i++) {
+                if (SliderList[i].isActive == true) {
+                    state = "Evet"
+                }
+                else {
+                    state="Hayır"
+                }
+                var Data = "<tr id='searchrow' class='row_" + SliderList[i].Id + "'>" +
+                    "<td>" + SliderList[i].Name + "</td>" +
+                    "<td>" + SliderList[i].Url + "</td>" +
+                    "<td>" + SliderList[i].Priority + "</td>" +
+                    "<td><img style='width:300px' src='" + SliderList[i].imageUrl + "'></img></td>" +
+                    "<td>" + state + "</td>" +
+                    "<td>" + "<button type='button'  onclick='EditSliderRecord(" + SliderList[i].Id+")'  class='btn btn-outline-primary btn-sm' title='Sayfa Kategorisi Güncelle'><span class='fa fa-pencil'></span> Güncelle</button>" + "</td>" +
+                    "<td>" + "<button type='button'  onclick='DeleteSliderRecord(" + SliderList[i].Id +")'  class='btn btn-outline-danger btn-sm' title='Sayfa Kategorisi Sil'><span class='fa fa-trash'></span> Sil</button>" + "</td>";
+                setData.append(Data);
+
+            }
+
+
+
+        }
+
+
+
+
+
+        function AddNewSlider(CategoryId) {
+            $("#form")[0].reset();
+            $("#SliderId").val(0);
+            $("#ModalTitle").html("Yeni Bir Slider Ekle");
+            $('#MyModal').modal();
+            $("#SliderMevcutResim").hide();
+
+        }
+
+
+
+
+
+        function EditSliderRecord(Catid) {
+
+            $("#ModalTitle").html("Update Slider Record");
+            $("#MyModal").modal();
+            $("#SliderMevcutResim").show();
+
+
+
+            $.ajax({
+            type: "GET",
+            url: '@Url.Action("GetSliderById", "Slider")',
+            contentType: "application/json; charset=utf-8",
+            data: { id: Catid },
+            dataType: "json",
+            success: function (data) {
+
+               // var objGetCategoryById = JSON.parse(data);
+
+                $("#SliderId").val(data.Id);
+                $("#SliderName").val(data.Name);
+                $("#SliderPriority").val(data.Priority);
+                $("#SliderImage").removeAttr("src");
+                $("#SliderImage").attr("src", data.imageUrl);
+                $("#SliderActive").val(data.isActive);
+                $("#SliderUrl").val(data.Url)
+
+                if (data.isActive) {
+                    $('#SliderActive').attr('checked', 'checked');
+                }
+                else {
+                    $('#SliderActive').removeAttr('checked');
+                }
+
+
+            }
+
+            });
+        }
+
+
+
+
+        $("#SaveSlider").click(function () {
+
+
+
+            var id=$("#SliderId").val();
+            var name=$("#SliderName").val();
+            var priority=$("#SliderPriority").val();
+            var image = $("#SliderImage").attr('src');
+            var url = $("#SliderUrl").val();
+            var isActive = $('#SliderActive').is(":checked");
+
+            var formData = new FormData();
+            var totalFiles = document.getElementById("file").files.length;
+
+            var file = document.getElementById("file").files[0];
+
+            formData.append("file",file);
+            formData.append("name",name);
+            formData.append("id",id);
+            formData.append("priority",priority);
+            formData.append("image",image);
+            formData.append("url", url);
+            formData.append("isActive", isActive);
+
+
+            $.ajax({
+                type: "Post",
+                url: '@Url.Action("SaveDataInDatabase", "Slider")',
+                data: formData,
+                contentType: false,
+                processData: false,
+                success: function (result) {
+
+                     //window.location.href = "/Admin/Category/Index";
+                    location.reload();
+
+
+                     $("#MyModal").modal("hide");
+
+
+                     if (result == 1) {
+                         //toastr.warning("Kategori başarıyla güncellendi");
+                         swal({
+                             position: 'center',
+                             type: 'warning',
+                             title: 'Slider Güncellendi',
+                             showConfirmButton: false,
+                             timer: 1500
+                         })
+
+                     }
+                     else if (result == 2) {
+                        // toastr.success("Kategori başarıyla eklendi");
+
+                         swal({
+                             position: 'center',
+                             type: 'success',
+                             title: 'Slider Eklendi',
+                             showConfirmButton: false,
+                             timer: 1500
+                         })
+
+                     }
+                     else {
+                         toastr.error("Hata!!!!");
+                     }
+
+
+                }
+
+            })
+
+        });
+
+
+
+        function DeleteSliderRecord(SliderId) {
+            swal({
+                title: 'Emin misiniz?',
+                text: "Sliderı silmek istediğinizden!",
+                type: 'warning',
+                showCancelButton: true,
+                confirmButtonColor: '#C9302C',
+                cancelButtonColor: '#EC971F',
+                confirmButtonText: 'Evet'
+            }).then((result) => {
+                if (result.value) {
+
+
+                    $.ajax({
+                        method: "GET",
+                        url: "/Slider/Delete/" + SliderId,
+
+                    }).done(function (data) {
+                        if (data.Result) {
+
+
+                            swal({
+                                position: 'center',
+                                type: 'success',
+                                title: 'Slider Silindi',
+                                showConfirmButton: false,
+                                timer: 1500
+                            })
+
+                            $(".row_" + SliderId).remove();
+
+                        }
+                        else {
+                            swal({
+                                type: 'error',
+                                title: 'Oops...',
+                                text: 'Birşeyler ters gitti!',
+                                footer: '<a href>Why do I have this issue?</a>',
+                            })
+                        }
+                    }).fail(function () {
+                        swal({
+                            type: 'error',
+                            title: 'Oops...',
+                            text: 'Sunucu ile bağlantı kurulamadı.!',
+                            footer: '<a href>Why do I have this issue?</a>',
+                        })
+
+                    });
+                }
+            })
+        }
+
+     
+
+
+        $("#Search").on("keyup", function () {
+            var value = $(this).val();
+
+            $("table tr").each(function (index) {
+                if (index !== 0) {
+                    $row = $(this);
+
+                    var id = $.map($row.find('td'), function (element) {
+                        return $(element).text()
+                    }).join(' ');
+
+                    if (id.toLowerCase().indexOf(value.toLowerCase()) < 0) {
+                        $row.hide();
+                    } else {
+                        $row.show();
+                    }
+                }
+            });
+        });
+
+
+
+</script>
+
+
+
+
+
+

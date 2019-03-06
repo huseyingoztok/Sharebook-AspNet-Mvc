@@ -1,0 +1,366 @@
+﻿
+
+@using ShareBook.Entities.EntityViewModels
+@model CategoryViewModel
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutPageAdmin2.cshtml";
+}
+
+<ol class="breadcrumb">
+    <li class="breadcrumb-item">
+        <h3 class="fa fa-list text-primary"> Kategori Listesi</h3>
+    </li>
+
+</ol>
+<div class="card mb-3">
+    <div class="card-header">
+        <i class="fa fa-list"></i> Kategoriler
+        <button style="float:right;" class="btn btn-info" onclick="AddNewCategory(0)">Yeni Kategori Ekle</button>
+
+        <div class="input-group col-md-4" style="float:right">
+            <input class="form-control py-2" type="search" placeholder="Search..." id="Search" />
+            <span class="input-group-append">
+                <span class="btn btn-info">
+                    <i class="fa fa-search"></i>
+                </span>
+            </span>
+        </div>
+    </div>
+    <div class="card-body">
+
+        <div class="table-responsive">
+            <table class="table table-hover" style="min-width:500px">
+                <thead>
+                    <tr>
+                        <th style="width:10%">Kategori Ad</th>
+                        <th style="width:10%">Açıklama</th>
+                        <th style="width:5%">İkon</th>
+                        <th style="width:7%">isActive</th>
+                        <th style="width:10%">CreateOn</th>
+                        <th style="width:10%">ModifiedOn</th>
+                        <th style="width:10%">ModifiedBy</th>
+                        <th style="width:10%">Güncelle</th>
+                        <th style="width:5%">Sil</th>
+                    </tr>
+                </thead>
+                <tfoot>
+                    <tr>
+                        <th>Kategori Ad</th>
+                        <th>Açıklama</th>
+                        <th>İkon</th>
+                        <th>isActive</th>
+                        <th>CreateOn</th>
+                        <th>ModifiedOn</th>
+                        <th>ModifiedBy</th>
+                        <th>Güncelle</th>
+                        <th>Sil</th>
+                    </tr>
+                </tfoot>
+                <tbody id="CategoryList"></tbody>
+
+            </table>
+        </div>
+    </div>
+    <div class="card-footer small text-muted"></div>
+
+
+</div>
+
+<div class="modal fade" id="MyModal">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+
+                <h4 id="ModalTitle"></h4>
+                <a href="#" class="close" data-dismiss="modal">&times;</a>
+            </div>
+            <div class="modal-body">
+                <form id="form">
+                    <fieldset id="SubmitForm">
+                        @Html.HiddenFor(x => x.Id, new { @id = "CatId" })
+
+                        <div class="form-group">
+                            <label class="col-lg-8 control-label" for="Slider Adı">Kategori Adı</label>
+                            <div class="col-lg-8">
+                                @Html.TextBoxFor(x => x.Title, new { @class = "form-control", required = "required", @placeholder = "Kategori adı...", id = "CatTitle" })
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="col-lg-8 control-label" for="Slider Link">Kategori Açıklama</label>
+                            <div class="col-lg-8">
+                                @Html.TextBoxFor(x => x.Description, new { @class = "form-control", required = "required", @placeholder = "Açıklama...", id = "CatDescription" })
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="col-lg-8 control-label" for="Slider Link">İkon</label>
+                            <div class="col-lg-8">
+                                @Html.TextBoxFor(x => x.Icon, new { @class = "form-control", required = "required", @placeholder = "İkon...", id = "CatIcon" })
+                                <span id="iconpreview"></span>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="col-lg-8 control-label" for="Aktif">Aktif</label>
+                            <div class="col-lg-8">
+                                @Html.CheckBoxFor(x => x.isActive, new { id = "CatActive" })
+                            </div>
+                        </div>
+
+
+                        <div class="form-group">
+                            <button type="button" class="btn btn-block btn-success" id="SaveCategory">Save</button>
+                        </div>
+                    </fieldset>
+                </form>
+
+            </div>
+        </div>
+    </div>
+</div>
+<script src="~/Scripts/toastr.min.js"></script>
+<script src="~/Scripts/toastr.js"></script>
+<script src="~/Areas/Admin/Scripts/extra/jquery-1.10.2.min.js"></script>
+<script src="~/Areas/Admin/Scripts/js/jquery.min.js"></script>
+<script>
+
+   
+
+
+
+        $.get("/Category/GetCategoryList", null, DataBind);
+    
+
+        function DataBind(CategoryList) {
+            var setData = $("#CategoryList");
+            var state = "";
+            for (var i = 0; i < CategoryList.length; i++) {
+
+                if (CategoryList[i].isActive == true) {
+                    state = "Evet"
+                }
+                else {
+                    state = "Hayır"
+                }
+                var Data = "<tr class='row_" + CategoryList[i].Id + "'>" +
+                    "<td>" + CategoryList[i].Title + "</td>" +
+                    "<td>" + CategoryList[i].Description + "</td>" +
+                    "<td><span class='" + CategoryList[i].Icon + "'></span></td>" +
+                    "<td>" + state + "</td>" +
+                    "<td>" + CategoryList[i].CreatedOn + "</td>" +
+                    "<td>" + CategoryList[i].ModifiedOn + "</td>" +
+                    "<td>" + CategoryList[i].ModifiedBy + "</td>" +
+                    "<td>" + "<button type='button'  onclick='EditCategoryRecord(" + CategoryList[i].Id+")'  class='btn btn-outline-primary btn-sm' title='Sayfa Kategorisi Güncelle'><span class='fa fa-pencil'></span> Güncelle</button>" + "</td>" +
+                    "<td>" + "<button type='button' href='#' onclick='DeleteCategoryRecord(" + CategoryList[i].Id +")'  class='btn btn-outline-danger btn-sm' title='Sayfa Kategorisi Sil'><span class='fa fa-trash'></span> Sil</button>" + "</td>";
+                setData.append(Data);
+
+            }
+
+
+
+        }
+
+
+
+
+
+        function AddNewCategory(CategoryId) {
+            $("#form")[0].reset();
+            $("#CatId").val(0);
+            $("#ModalTitle").html("Yeni Bir Kategori Ekle");
+            $('#MyModal').modal();
+        }
+
+
+
+
+
+        function EditCategoryRecord(Catid) {
+
+            $("#ModalTitle").html("Update Category Record");
+            $("#MyModal").modal();
+
+
+
+
+            $.ajax({
+            type: "GET",
+            url: '@Url.Action("GetCategoryById", "Category")',
+            contentType: "application/json; charset=utf-8",
+            data: { id: Catid },
+            dataType: "json",
+            success: function (data) {
+
+               // var objGetCategoryById = JSON.parse(data);
+
+                $("#CatId").val(data.Id);
+                $("#CatTitle").val(data.Title);
+                $("#CatDescription").val(data.Description);
+                $("#CatIcon").val(data.Icon);
+          
+
+                if (data.isActive) {
+                    $('#CatActive').attr('checked', 'checked');
+                }
+                else {
+                    $('#CatActive').removeAttr('checked');
+                }
+
+
+            }
+
+            });
+        }
+
+
+
+
+        $("#SaveCategory").click(function () {
+            var data = $("#SubmitForm").serialize();
+
+            $.ajax({
+                type: "Post",
+                url: '@Url.Action("SaveDataInDatabase", "Category")',
+                data: data,
+                success: function (result) {
+                   
+                     //window.location.href = "/Admin/Category/Index";
+                    location.reload();
+
+                    
+                     $("#MyModal").modal("hide");
+                     
+
+                     if (result == 1) {
+                         //toastr.warning("Kategori başarıyla güncellendi");
+                         swal({
+                             position: 'center',
+                             type: 'warning',
+                             title: 'Kategori Güncellendi',
+                             showConfirmButton: false,
+                             timer: 1500
+                         })
+                         
+                     }
+                     else if (result == 2) {
+                        // toastr.success("Kategori başarıyla eklendi");
+
+                         swal({
+                             position: 'center',
+                             type: 'success',
+                             title: 'Kategori Eklendi',
+                             showConfirmButton: false,
+                             timer: 1500
+                         })
+                         
+                     }
+                     else {
+                         toastr.error("Hata!!!!");
+                     }
+                    
+                   
+                }
+            })
+
+        });
+
+
+
+        function DeleteCategoryRecord(Catid) {
+            swal({
+                title: 'Emin misiniz?',
+                text: "Kateogriyi silmek istediğinizden!",
+                type: 'warning',
+                showCancelButton: true,
+                confirmButtonColor: '#C9302C',
+                cancelButtonColor: '#EC971F',
+                confirmButtonText: 'Evet'
+            }).then((result) => {
+                if (result.value) {
+                    
+
+                    $.ajax({
+                        method: "GET",
+                        url: "/Category/Delete/" + Catid,
+
+                    }).done(function (data) {
+                        if (data.Result) {
+                           
+
+                            swal({
+                                position: 'center',
+                                type: 'success',
+                                title: 'Kategori Silindi',
+                                showConfirmButton: false,
+                                timer: 1500
+                            })
+
+                            $(".row_" + Catid).remove();
+                            
+                        }
+                        else {
+                            swal({
+                                type: 'error',
+                                title: 'Oops...',
+                                text: 'Birşeyler ters gitti!',
+                                footer: '<a href>Why do I have this issue?</a>',
+                            })
+                        }
+                    }).fail(function () {
+                        swal({
+                            type: 'error',
+                            title: 'Oops...',
+                            text: 'Sunucu ile bağlantı kurulamadı.!',
+                            footer: '<a href>Why do I have this issue?</a>',
+                        })
+
+                    });
+                }
+            })
+        }
+
+
+        $("#Search").on("keyup", function () {
+            var value = $(this).val();
+
+            $("table tr").each(function (index) {
+                if (index !== 0) {
+                    $row = $(this);
+
+                    var id = $.map($row.find('td'), function (element) {
+                        return $(element).text()
+                    }).join(' ');
+
+                    if (id.toLowerCase().indexOf(value.toLowerCase()) < 0) {
+                        $row.hide();
+                        if ($('table tr').length == 0) {
+                            alert("Veri Yok");
+                        }
+                      
+                       
+                    } else {
+                        $row.show();
+                    }
+                }
+            });
+        });
+
+
+        //$("#CatIcon").keyup(function () {
+
+        //        $("#iconpreview").addClass($("#CatIcon").val().trim());
+
+
+        //    //else {
+        //    //    $("#iconpreview").removeClass($("#CatIcon").val().trim());
+        //    //}
+        //    alert($("#CatIcon").val());
+
+        //});
+</script>
+
+
+
+

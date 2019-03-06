@@ -1,0 +1,30 @@
+C:\Users\HUSEYIN-PC\source\repos\ShareBook\ShareBook.Core\bin\Debug\ShareBook.Core.dll
+C:\Users\HUSEYIN-PC\source\repos\ShareBook\ShareBook.Core\bin\Debug\ShareBook.Core.pdb
+C:\Users\HUSEYIN-PC\source\repos\ShareBook\ShareBook.Core\obj\Debug\ShareBook.Core.csprojResolveAssemblyReference.cache
+C:\Users\HUSEYIN-PC\source\repos\ShareBook\ShareBook.Core\obj\Debug\ShareBook.Core.csproj.CoreCompileInputs.cache
+C:\Users\HUSEYIN-PC\source\repos\ShareBook\ShareBook.Core\obj\Debug\ShareBook.Core.dll
+C:\Users\HUSEYIN-PC\source\repos\ShareBook\ShareBook.Core\obj\Debug\ShareBook.Core.pdb
+D:\Bitirme\ShareBook\ShareBook.Core\bin\Debug\ShareBook.Core.dll
+D:\Bitirme\ShareBook\ShareBook.Core\bin\Debug\ShareBook.Core.pdb
+D:\Bitirme\ShareBook\ShareBook.Core\obj\Debug\ShareBook.Core.csprojResolveAssemblyReference.cache
+D:\Bitirme\ShareBook\ShareBook.Core\obj\Debug\ShareBook.Core.csproj.CoreCompileInputs.cache
+D:\Bitirme\ShareBook\ShareBook.Core\obj\Debug\ShareBook.Core.dll
+D:\Bitirme\ShareBook\ShareBook.Core\obj\Debug\ShareBook.Core.pdb
+D:\Bitirme\ShareBook\ShareBook\ShareBook.Core\bin\Debug\ShareBook.Core.dll
+D:\Bitirme\ShareBook\ShareBook\ShareBook.Core\bin\Debug\ShareBook.Core.pdb
+D:\Bitirme\ShareBook\ShareBook\ShareBook.Core\obj\Debug\ShareBook.Core.csprojResolveAssemblyReference.cache
+D:\Bitirme\ShareBook\ShareBook\ShareBook.Core\obj\Debug\ShareBook.Core.csproj.CoreCompileInputs.cache
+D:\Bitirme\ShareBook\ShareBook\ShareBook.Core\obj\Debug\ShareBook.Core.dll
+D:\Bitirme\ShareBook\ShareBook\ShareBook.Core\obj\Debug\ShareBook.Core.pdb
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook.Core\bin\Debug\ShareBook.Core.dll
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook.Core\bin\Debug\ShareBook.Core.pdb
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook.Core\obj\Debug\ShareBook.Core.csprojAssemblyReference.cache
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook.Core\obj\Debug\ShareBook.Core.csproj.CoreCompileInputs.cache
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook.Core\obj\Debug\ShareBook.Core.dll
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook.Core\obj\Debug\ShareBook.Core.pdb
+D:\Download Firefox\ShareBook\ShareBook\ShareBook\ShareBook.Core\bin\Debug\ShareBook.Core.dll
+D:\Download Firefox\ShareBook\ShareBook\ShareBook\ShareBook.Core\bin\Debug\ShareBook.Core.pdb
+D:\Download Firefox\ShareBook\ShareBook\ShareBook\ShareBook.Core\obj\Debug\ShareBook.Core.csprojAssemblyReference.cache
+D:\Download Firefox\ShareBook\ShareBook\ShareBook\ShareBook.Core\obj\Debug\ShareBook.Core.csproj.CoreCompileInputs.cache
+D:\Download Firefox\ShareBook\ShareBook\ShareBook\ShareBook.Core\obj\Debug\ShareBook.Core.dll
+D:\Download Firefox\ShareBook\ShareBook\ShareBook\ShareBook.Core\obj\Debug\ShareBook.Core.pdb

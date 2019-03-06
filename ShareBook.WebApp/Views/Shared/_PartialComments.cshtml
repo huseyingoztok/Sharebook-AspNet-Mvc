@@ -1,0 +1,157 @@
+﻿@using ShareBook.Entities
+@using ShareBook.WebApp.ViewModels
+@using ShareBook.WebApp.Models
+@model LikeCommentViewModel<List<Liked>, List<Comment>>
+@{
+    ShareBookUser currUser = CurrentSession.shareBookUser;
+}
+
+
+<link href="~/Content/selfcss/comment.css" rel="stylesheet" />
+<style>
+    .editText {
+        border-color: #66afe9;
+        outline: 0;
+        -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.08), 0 0 8px #93c6ef;
+        -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.08), 0 0 8px #93c6ef;
+        box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.08), 0 0 8px #93c6ef;
+    }
+</style>
+
+@if (Model.Likes.Count > 0)
+{
+    <div class="row">
+
+        
+        <div class="col-sm-12">
+            <div class="list-group" data-toggle="collapse" data-target="#demo">
+                <button style="color:white"  class="list-group-item list-group-item-action active" data-state="true" id="spanupdown">
+                   <span class="fa fa-heart"> Beğenenler</span><i style="float:right"><span id="spanicon"  class="fa fa-angle-double-down"></span></i> 
+                </button>
+                <div class="collapse" id="demo">
+                    @foreach (var item in Model.Likes)
+                    {
+                        <button type="button" class="list-group-item list-group-item-action" >@("@"+item.likedUser.Username)</button>
+                    }
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+}
+
+<br /><br />
+
+@if (Model.Comments.Count > 0)
+            {
+
+                foreach (var item in Model.Comments)
+                {
+
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="panel panel-white post panel-shadow">
+                    <div class="post-heading">
+                        <div class="pull-left image">
+                            <img src="@item.Owner.ProfilPhoto" class="rounded-circle avatar" alt="@(item.Owner.ProfilPhoto+" Profil Photo")">
+                        </div>
+                        <div class="pull-left meta">
+                            <div class="title h5">
+
+                                <a><b>@(item.Owner.Name+" "+item.Owner.Surname)</b></a>
+
+                            </div>
+                            <div class="title h6">
+
+                                <a><b>@("@" + item.Owner.Username)</b></a>
+
+                            </div>
+
+
+                            <h6 class="text-muted time"><i class="fa fa-clock-o"></i> @item.ModifiedOn</h6>
+                        </div>
+                    </div>
+                    <div class="post-description">
+                        <p contenteditable="false" id="comment_text_@item.Id">@item.commentText</p>
+                        <div class="stats">
+                            @if (currUser != null && item.Owner.Id == currUser.Id)
+                            {
+                                <button type="button" class="btn btn-primary btn-sm stat-item" data-edit-mode="false" onclick="doComment(this,'edit',@item.Id,'#comment_text_@item.Id');">
+                                    <i class="fa fa-pencil icon"></i> Edit
+                                </button>
+                                            <button class="btn btn-danger btn-sm stat-item" onclick="doComment(this,'delete',@item.Id);">
+                                                <i class="fa fa-trash icon"></i> Delete
+                                            </button>
+                            }
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+
+
+}
+
+else
+{
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="panel panel-white post panel-shadow">
+
+                <div class="post-description">
+                    <p style="font-weight:bold" class="text-center">No Comment!</p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+}
+
+
+@if (currUser != null)
+            {
+    @Html.ValidationSummary(false);
+    <div class="input-group" style="margin-top:20px">
+        <input type="text" id="insert_comment_text" class="form-control" placeholder="Yorumunuz ..." aria-label="Recipient's username" aria-describedby="basic-addon2">
+        <div class="input-group-append">
+            <button  class="btn btn-success" type="button" id="btnShare" style="display:none" onclick="doComment(this,'insercomment',-1);"><span class="fa fa-send"></span> Yorum Yap</button>
+        </div>
+    </div>
+}
+
+    <script src="~/Scripts/self/sweetalert2.all.js"></script>
+<script>
+
+ 
+    var state = $("#spanupdown").data("state");
+    $("#spanupdown").click(function () {
+
+        if (state) {
+            state = false;
+            $("#spanicon").removeClass("fa-angle-double-down");
+            $("#spanicon").addClass("fa-angle-double-up");
+        }
+        else {
+            state = true;
+            $("#spanicon").removeClass("fa-angle-double-up");
+            $("#spanicon").addClass("fa-angle-double-down");
+        }
+
+    });
+    
+    $("#insert_comment_text").keyup(function () {
+        if ($("#insert_comment_text").val().trim().length > 0) {
+            
+            $("#btnShare").removeAttr("style");
+        }
+ 
+        else {
+            $("#btnShare").css("display", "none")
+        }
+      
+    });
+</script>

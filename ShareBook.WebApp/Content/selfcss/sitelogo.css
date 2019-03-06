@@ -1,0 +1,5 @@
+﻿
+#siteLogo:hover {
+    /*text-shadow: 0 0 10px rgba(255,255,255,1), 0 0 20px rgba(255,255,255,1), 0 0 30px rgba(255,255,255,1), 0 0 40px #00ffff, 0 0 70px #00ffff, 0 0 80px #00ffff, 0 0 100px #00ffff;*/
+    text-shadow: 0 0 10px rgba(0,255,255,1), 0 0 20px rgb(182, 255, 0), 0 0 30px rgb(255, 106, 0), 0 0 40px #00ffff, 0 0 70px #00ffff, 0 0 80px #00ffff, 0 0 100px #00ffff;
+}

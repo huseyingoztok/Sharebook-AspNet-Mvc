@@ -1,0 +1,74 @@
+﻿@using ShareBook.WebApp.ViewModels
+@using ShareBook.Entities.Messages
+@model ErrorViewModel
+
+@{
+    ViewBag.Title = Model.Tittle;
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<section class="h-100 my-login-page my-5">
+    <div class="container-fluid h-100">
+        <div class="row justify-content-md-center h-100">
+            <div class="card-wrapper">
+                @if (Model.IsRedirecting)
+                {
+                    <div class="card fat">
+                        <div class="card-body">
+                            <h4 class="card-title text-center">@Model.Header</h4>
+                            <h2 class="text-center">
+                                <span class="fa fa-times-rectangle text-danger" style="display:none">   @Model.Tittle</span>
+                            </h2>
+                            <hr style="display:none" />
+                            <p class="text-justify text-danger" style="display:none">
+
+                                @*E-posta adresinize gönderilen mail ile hesabınızı aktive ediniz. Aksi halde not yazamaz, yorum yapamaz ve notları beğenme işlemini gerçekleştiremezsiniz!*@
+                                @foreach (ErrorMessageObj msg in Model.Items)
+                                {
+                                    @msg.Message<br />
+                                }
+
+                            </p>
+
+                        </div>
+                    </div>
+                }
+
+
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<script src="~/Scripts/jquery-3.3.1.min.js"></script>
+
+@{
+    string js = string.Empty;
+    js = "setTimeout(function () {window.location = '" + Model.RedirectingUrl + "';}," + Model.RedirectingTimeout + ");";
+}
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('footer').hide();
+
+        setTimeout(function () {
+
+            $('h4').hide();
+        }, 2000);
+
+
+        setTimeout(function () {
+
+            $('span').show();
+            $('.text-justify').show();
+            $('hr').show();
+        }, 2000);
+
+        setTimeout(function () {
+             @Html.Raw(js);
+        },3000);
+
+    });
+</script>

@@ -1,0 +1,539 @@
+C:\Users\HUSEYIN-PC\source\repos\ShareBook\ShareBook.WebApp\bin\roslyn\csc.exe
+C:\Users\HUSEYIN-PC\source\repos\ShareBook\ShareBook.WebApp\bin\roslyn\csc.exe.config
+C:\Users\HUSEYIN-PC\source\repos\ShareBook\ShareBook.WebApp\bin\roslyn\csc.rsp
+C:\Users\HUSEYIN-PC\source\repos\ShareBook\ShareBook.WebApp\bin\roslyn\csi.exe
+C:\Users\HUSEYIN-PC\source\repos\ShareBook\ShareBook.WebApp\bin\roslyn\csi.exe.config
+C:\Users\HUSEYIN-PC\source\repos\ShareBook\ShareBook.WebApp\bin\roslyn\csi.rsp
+C:\Users\HUSEYIN-PC\source\repos\ShareBook\ShareBook.WebApp\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\HUSEYIN-PC\source\repos\ShareBook\ShareBook.WebApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\HUSEYIN-PC\source\repos\ShareBook\ShareBook.WebApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\HUSEYIN-PC\source\repos\ShareBook\ShareBook.WebApp\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\HUSEYIN-PC\source\repos\ShareBook\ShareBook.WebApp\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\HUSEYIN-PC\source\repos\ShareBook\ShareBook.WebApp\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\HUSEYIN-PC\source\repos\ShareBook\ShareBook.WebApp\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\HUSEYIN-PC\source\repos\ShareBook\ShareBook.WebApp\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\HUSEYIN-PC\source\repos\ShareBook\ShareBook.WebApp\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\HUSEYIN-PC\source\repos\ShareBook\ShareBook.WebApp\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\HUSEYIN-PC\source\repos\ShareBook\ShareBook.WebApp\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\HUSEYIN-PC\source\repos\ShareBook\ShareBook.WebApp\bin\roslyn\System.AppContext.dll
+C:\Users\HUSEYIN-PC\source\repos\ShareBook\ShareBook.WebApp\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\HUSEYIN-PC\source\repos\ShareBook\ShareBook.WebApp\bin\roslyn\System.Console.dll
+C:\Users\HUSEYIN-PC\source\repos\ShareBook\ShareBook.WebApp\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\HUSEYIN-PC\source\repos\ShareBook\ShareBook.WebApp\bin\roslyn\System.Diagnostics.Process.dll
+C:\Users\HUSEYIN-PC\source\repos\ShareBook\ShareBook.WebApp\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\HUSEYIN-PC\source\repos\ShareBook\ShareBook.WebApp\bin\roslyn\System.IO.Compression.dll
+C:\Users\HUSEYIN-PC\source\repos\ShareBook\ShareBook.WebApp\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\HUSEYIN-PC\source\repos\ShareBook\ShareBook.WebApp\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+C:\Users\HUSEYIN-PC\source\repos\ShareBook\ShareBook.WebApp\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\HUSEYIN-PC\source\repos\ShareBook\ShareBook.WebApp\bin\roslyn\System.IO.Pipes.dll
+C:\Users\HUSEYIN-PC\source\repos\ShareBook\ShareBook.WebApp\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\HUSEYIN-PC\source\repos\ShareBook\ShareBook.WebApp\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\HUSEYIN-PC\source\repos\ShareBook\ShareBook.WebApp\bin\roslyn\System.Security.Claims.dll
+C:\Users\HUSEYIN-PC\source\repos\ShareBook\ShareBook.WebApp\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\HUSEYIN-PC\source\repos\ShareBook\ShareBook.WebApp\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\HUSEYIN-PC\source\repos\ShareBook\ShareBook.WebApp\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\HUSEYIN-PC\source\repos\ShareBook\ShareBook.WebApp\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\HUSEYIN-PC\source\repos\ShareBook\ShareBook.WebApp\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\HUSEYIN-PC\source\repos\ShareBook\ShareBook.WebApp\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\HUSEYIN-PC\source\repos\ShareBook\ShareBook.WebApp\bin\roslyn\System.Threading.Thread.dll
+C:\Users\HUSEYIN-PC\source\repos\ShareBook\ShareBook.WebApp\bin\roslyn\System.ValueTuple.dll
+C:\Users\HUSEYIN-PC\source\repos\ShareBook\ShareBook.WebApp\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\HUSEYIN-PC\source\repos\ShareBook\ShareBook.WebApp\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\HUSEYIN-PC\source\repos\ShareBook\ShareBook.WebApp\bin\roslyn\System.Xml.XPath.dll
+C:\Users\HUSEYIN-PC\source\repos\ShareBook\ShareBook.WebApp\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\HUSEYIN-PC\source\repos\ShareBook\ShareBook.WebApp\bin\roslyn\vbc.exe
+C:\Users\HUSEYIN-PC\source\repos\ShareBook\ShareBook.WebApp\bin\roslyn\vbc.exe.config
+C:\Users\HUSEYIN-PC\source\repos\ShareBook\ShareBook.WebApp\bin\roslyn\vbc.rsp
+C:\Users\HUSEYIN-PC\source\repos\ShareBook\ShareBook.WebApp\bin\roslyn\VBCSCompiler.exe
+C:\Users\HUSEYIN-PC\source\repos\ShareBook\ShareBook.WebApp\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\HUSEYIN-PC\source\repos\ShareBook\ShareBook.WebApp\bin\ShareBook.WebApp.dll.config
+C:\Users\HUSEYIN-PC\source\repos\ShareBook\ShareBook.WebApp\bin\ShareBook.WebApp.dll
+C:\Users\HUSEYIN-PC\source\repos\ShareBook\ShareBook.WebApp\bin\ShareBook.WebApp.pdb
+C:\Users\HUSEYIN-PC\source\repos\ShareBook\ShareBook.WebApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\HUSEYIN-PC\source\repos\ShareBook\ShareBook.WebApp\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\HUSEYIN-PC\source\repos\ShareBook\ShareBook.WebApp\bin\System.Web.Helpers.dll
+C:\Users\HUSEYIN-PC\source\repos\ShareBook\ShareBook.WebApp\bin\System.Web.Mvc.dll
+C:\Users\HUSEYIN-PC\source\repos\ShareBook\ShareBook.WebApp\bin\System.Web.Razor.dll
+C:\Users\HUSEYIN-PC\source\repos\ShareBook\ShareBook.WebApp\bin\System.Web.Webpages.Deployment.dll
+C:\Users\HUSEYIN-PC\source\repos\ShareBook\ShareBook.WebApp\bin\System.Web.Webpages.dll
+C:\Users\HUSEYIN-PC\source\repos\ShareBook\ShareBook.WebApp\bin\System.Web.Webpages.Razor.dll
+C:\Users\HUSEYIN-PC\source\repos\ShareBook\ShareBook.WebApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\HUSEYIN-PC\source\repos\ShareBook\ShareBook.WebApp\bin\System.Web.Razor.xml
+C:\Users\HUSEYIN-PC\source\repos\ShareBook\ShareBook.WebApp\bin\System.Web.Webpages.xml
+C:\Users\HUSEYIN-PC\source\repos\ShareBook\ShareBook.WebApp\bin\System.Web.Webpages.Deployment.xml
+C:\Users\HUSEYIN-PC\source\repos\ShareBook\ShareBook.WebApp\bin\System.Web.Webpages.Razor.xml
+C:\Users\HUSEYIN-PC\source\repos\ShareBook\ShareBook.WebApp\bin\System.Web.Helpers.xml
+C:\Users\HUSEYIN-PC\source\repos\ShareBook\ShareBook.WebApp\bin\System.Web.Mvc.xml
+C:\Users\HUSEYIN-PC\source\repos\ShareBook\ShareBook.WebApp\obj\Debug\ShareBook.WebApp.csprojResolveAssemblyReference.cache
+C:\Users\HUSEYIN-PC\source\repos\ShareBook\ShareBook.WebApp\obj\Debug\ShareBook.WebApp.csproj.CoreCompileInputs.cache
+C:\Users\HUSEYIN-PC\source\repos\ShareBook\ShareBook.WebApp\obj\Debug\ShareBook.WebApp.dll
+C:\Users\HUSEYIN-PC\source\repos\ShareBook\ShareBook.WebApp\obj\Debug\ShareBook.WebApp.pdb
+C:\Users\HUSEYIN-PC\source\repos\ShareBook\ShareBook.WebApp\bin\EntityFramework.dll
+C:\Users\HUSEYIN-PC\source\repos\ShareBook\ShareBook.WebApp\bin\EntityFramework.SqlServer.dll
+C:\Users\HUSEYIN-PC\source\repos\ShareBook\ShareBook.WebApp\bin\ShareBook.BusinessLayer.dll
+C:\Users\HUSEYIN-PC\source\repos\ShareBook\ShareBook.WebApp\bin\ShareBook.Entities.dll
+C:\Users\HUSEYIN-PC\source\repos\ShareBook\ShareBook.WebApp\bin\ShareBook.BusinessLayer.pdb
+C:\Users\HUSEYIN-PC\source\repos\ShareBook\ShareBook.WebApp\bin\ShareBook.BusinessLayer.dll.config
+C:\Users\HUSEYIN-PC\source\repos\ShareBook\ShareBook.WebApp\bin\ShareBook.Entities.pdb
+C:\Users\HUSEYIN-PC\source\repos\ShareBook\ShareBook.WebApp\bin\EntityFramework.xml
+C:\Users\HUSEYIN-PC\source\repos\ShareBook\ShareBook.WebApp\bin\EntityFramework.SqlServer.xml
+C:\Users\HUSEYIN-PC\source\repos\ShareBook\ShareBook.WebApp\bin\ShareBook.DAL.dll
+C:\Users\HUSEYIN-PC\source\repos\ShareBook\ShareBook.WebApp\bin\ShareBook.DAL.pdb
+C:\Users\HUSEYIN-PC\source\repos\ShareBook\ShareBook.WebApp\bin\ShareBook.DAL.dll.config
+C:\Users\HUSEYIN-PC\source\repos\ShareBook\ShareBook.WebApp\bin\FakeData.dll
+C:\Users\HUSEYIN-PC\source\repos\ShareBook\ShareBook.WebApp\bin\FakeData.pdb
+C:\Users\HUSEYIN-PC\source\repos\ShareBook\ShareBook.WebApp\bin\ShareBook.Common.dll
+C:\Users\HUSEYIN-PC\source\repos\ShareBook\ShareBook.WebApp\bin\ShareBook.Common.pdb
+C:\Users\HUSEYIN-PC\source\repos\ShareBook\ShareBook.WebApp\bin\ShareBook.Core.dll
+C:\Users\HUSEYIN-PC\source\repos\ShareBook\ShareBook.WebApp\bin\ShareBook.Core.pdb
+D:\Bitirme\ShareBook\ShareBook.WebApp\bin\roslyn\csc.exe
+D:\Bitirme\ShareBook\ShareBook.WebApp\bin\roslyn\csc.exe.config
+D:\Bitirme\ShareBook\ShareBook.WebApp\bin\roslyn\csc.rsp
+D:\Bitirme\ShareBook\ShareBook.WebApp\bin\roslyn\csi.exe
+D:\Bitirme\ShareBook\ShareBook.WebApp\bin\roslyn\csi.exe.config
+D:\Bitirme\ShareBook\ShareBook.WebApp\bin\roslyn\csi.rsp
+D:\Bitirme\ShareBook\ShareBook.WebApp\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Bitirme\ShareBook\ShareBook.WebApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Bitirme\ShareBook\ShareBook.WebApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Bitirme\ShareBook\ShareBook.WebApp\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Bitirme\ShareBook\ShareBook.WebApp\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Bitirme\ShareBook\ShareBook.WebApp\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Bitirme\ShareBook\ShareBook.WebApp\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Bitirme\ShareBook\ShareBook.WebApp\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Bitirme\ShareBook\ShareBook.WebApp\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Bitirme\ShareBook\ShareBook.WebApp\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Bitirme\ShareBook\ShareBook.WebApp\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\Bitirme\ShareBook\ShareBook.WebApp\bin\roslyn\System.AppContext.dll
+D:\Bitirme\ShareBook\ShareBook.WebApp\bin\roslyn\System.Console.dll
+D:\Bitirme\ShareBook\ShareBook.WebApp\bin\roslyn\System.Diagnostics.Process.dll
+D:\Bitirme\ShareBook\ShareBook.WebApp\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Bitirme\ShareBook\ShareBook.WebApp\bin\roslyn\System.IO.Compression.dll
+D:\Bitirme\ShareBook\ShareBook.WebApp\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+D:\Bitirme\ShareBook\ShareBook.WebApp\bin\roslyn\System.IO.Pipes.dll
+D:\Bitirme\ShareBook\ShareBook.WebApp\bin\roslyn\System.Security.AccessControl.dll
+D:\Bitirme\ShareBook\ShareBook.WebApp\bin\roslyn\System.Security.Claims.dll
+D:\Bitirme\ShareBook\ShareBook.WebApp\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Bitirme\ShareBook\ShareBook.WebApp\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Bitirme\ShareBook\ShareBook.WebApp\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Bitirme\ShareBook\ShareBook.WebApp\bin\roslyn\System.Security.Principal.Windows.dll
+D:\Bitirme\ShareBook\ShareBook.WebApp\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Bitirme\ShareBook\ShareBook.WebApp\bin\roslyn\System.Threading.Thread.dll
+D:\Bitirme\ShareBook\ShareBook.WebApp\bin\roslyn\System.ValueTuple.dll
+D:\Bitirme\ShareBook\ShareBook.WebApp\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Bitirme\ShareBook\ShareBook.WebApp\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Bitirme\ShareBook\ShareBook.WebApp\bin\roslyn\System.Xml.XPath.dll
+D:\Bitirme\ShareBook\ShareBook.WebApp\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Bitirme\ShareBook\ShareBook.WebApp\bin\roslyn\vbc.exe
+D:\Bitirme\ShareBook\ShareBook.WebApp\bin\roslyn\vbc.exe.config
+D:\Bitirme\ShareBook\ShareBook.WebApp\bin\roslyn\vbc.rsp
+D:\Bitirme\ShareBook\ShareBook.WebApp\bin\roslyn\VBCSCompiler.exe
+D:\Bitirme\ShareBook\ShareBook.WebApp\bin\roslyn\VBCSCompiler.exe.config
+D:\Bitirme\ShareBook\ShareBook.WebApp\bin\roslyn\System.Collections.Immutable.dll
+D:\Bitirme\ShareBook\ShareBook.WebApp\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Bitirme\ShareBook\ShareBook.WebApp\bin\roslyn\System.IO.FileSystem.dll
+D:\Bitirme\ShareBook\ShareBook.WebApp\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Bitirme\ShareBook\ShareBook.WebApp\bin\roslyn\System.Reflection.Metadata.dll
+D:\Bitirme\ShareBook\ShareBook.WebApp\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Bitirme\ShareBook\ShareBook.WebApp\bin\ShareBook.WebApp.dll.config
+D:\Bitirme\ShareBook\ShareBook.WebApp\bin\ShareBook.WebApp.dll
+D:\Bitirme\ShareBook\ShareBook.WebApp\bin\ShareBook.WebApp.pdb
+D:\Bitirme\ShareBook\ShareBook.WebApp\bin\EntityFramework.dll
+D:\Bitirme\ShareBook\ShareBook.WebApp\bin\EntityFramework.SqlServer.dll
+D:\Bitirme\ShareBook\ShareBook.WebApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Bitirme\ShareBook\ShareBook.WebApp\bin\Microsoft.Web.Infrastructure.dll
+D:\Bitirme\ShareBook\ShareBook.WebApp\bin\ShareBook.BusinessLayer.dll
+D:\Bitirme\ShareBook\ShareBook.WebApp\bin\ShareBook.Common.dll
+D:\Bitirme\ShareBook\ShareBook.WebApp\bin\ShareBook.Core.dll
+D:\Bitirme\ShareBook\ShareBook.WebApp\bin\ShareBook.Entities.dll
+D:\Bitirme\ShareBook\ShareBook.WebApp\bin\System.Web.Helpers.dll
+D:\Bitirme\ShareBook\ShareBook.WebApp\bin\System.Web.Mvc.dll
+D:\Bitirme\ShareBook\ShareBook.WebApp\bin\System.Web.Razor.dll
+D:\Bitirme\ShareBook\ShareBook.WebApp\bin\System.Web.Webpages.Deployment.dll
+D:\Bitirme\ShareBook\ShareBook.WebApp\bin\System.Web.Webpages.dll
+D:\Bitirme\ShareBook\ShareBook.WebApp\bin\System.Web.Webpages.Razor.dll
+D:\Bitirme\ShareBook\ShareBook.WebApp\bin\ShareBook.DAL.dll
+D:\Bitirme\ShareBook\ShareBook.WebApp\bin\FakeData.dll
+D:\Bitirme\ShareBook\ShareBook.WebApp\bin\ShareBook.BusinessLayer.pdb
+D:\Bitirme\ShareBook\ShareBook.WebApp\bin\ShareBook.BusinessLayer.dll.config
+D:\Bitirme\ShareBook\ShareBook.WebApp\bin\ShareBook.Common.pdb
+D:\Bitirme\ShareBook\ShareBook.WebApp\bin\ShareBook.Core.pdb
+D:\Bitirme\ShareBook\ShareBook.WebApp\bin\ShareBook.Entities.pdb
+D:\Bitirme\ShareBook\ShareBook.WebApp\bin\EntityFramework.xml
+D:\Bitirme\ShareBook\ShareBook.WebApp\bin\EntityFramework.SqlServer.xml
+D:\Bitirme\ShareBook\ShareBook.WebApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Bitirme\ShareBook\ShareBook.WebApp\bin\System.Web.Razor.xml
+D:\Bitirme\ShareBook\ShareBook.WebApp\bin\System.Web.Webpages.xml
+D:\Bitirme\ShareBook\ShareBook.WebApp\bin\System.Web.Webpages.Deployment.xml
+D:\Bitirme\ShareBook\ShareBook.WebApp\bin\System.Web.Webpages.Razor.xml
+D:\Bitirme\ShareBook\ShareBook.WebApp\bin\System.Web.Helpers.xml
+D:\Bitirme\ShareBook\ShareBook.WebApp\bin\System.Web.Mvc.xml
+D:\Bitirme\ShareBook\ShareBook.WebApp\bin\ShareBook.DAL.pdb
+D:\Bitirme\ShareBook\ShareBook.WebApp\bin\ShareBook.DAL.dll.config
+D:\Bitirme\ShareBook\ShareBook.WebApp\bin\FakeData.pdb
+D:\Bitirme\ShareBook\ShareBook.WebApp\obj\Debug\ShareBook.WebApp.csprojResolveAssemblyReference.cache
+D:\Bitirme\ShareBook\ShareBook.WebApp\obj\Debug\ShareBook.WebApp.csproj.CoreCompileInputs.cache
+D:\Bitirme\ShareBook\ShareBook.WebApp\obj\Debug\ShareBook.WebApp.dll
+D:\Bitirme\ShareBook\ShareBook.WebApp\obj\Debug\ShareBook.WebApp.pdb
+D:\Bitirme\ShareBook\ShareBook.WebApp\obj\Debug\ShareBook.WebApp.csproj.CopyComplete
+D:\Bitirme\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\csc.exe
+D:\Bitirme\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\csc.exe.config
+D:\Bitirme\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\csc.rsp
+D:\Bitirme\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\csi.exe
+D:\Bitirme\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\csi.exe.config
+D:\Bitirme\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\csi.rsp
+D:\Bitirme\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Bitirme\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Bitirme\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Bitirme\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Bitirme\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Bitirme\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Bitirme\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Bitirme\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Bitirme\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Bitirme\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Bitirme\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\Bitirme\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\System.AppContext.dll
+D:\Bitirme\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\System.Collections.Immutable.dll
+D:\Bitirme\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\System.Console.dll
+D:\Bitirme\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Bitirme\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\System.Diagnostics.Process.dll
+D:\Bitirme\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Bitirme\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\System.IO.Compression.dll
+D:\Bitirme\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\System.IO.FileSystem.dll
+D:\Bitirme\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+D:\Bitirme\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Bitirme\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\System.IO.Pipes.dll
+D:\Bitirme\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\System.Reflection.Metadata.dll
+D:\Bitirme\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\System.Security.AccessControl.dll
+D:\Bitirme\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\System.Security.Claims.dll
+D:\Bitirme\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Bitirme\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Bitirme\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Bitirme\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Bitirme\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\System.Security.Principal.Windows.dll
+D:\Bitirme\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Bitirme\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\System.Threading.Thread.dll
+D:\Bitirme\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\System.ValueTuple.dll
+D:\Bitirme\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Bitirme\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Bitirme\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\System.Xml.XPath.dll
+D:\Bitirme\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Bitirme\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\vbc.exe
+D:\Bitirme\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\vbc.exe.config
+D:\Bitirme\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\vbc.rsp
+D:\Bitirme\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\VBCSCompiler.exe
+D:\Bitirme\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\VBCSCompiler.exe.config
+D:\Bitirme\ShareBook\ShareBook\ShareBook.WebApp\bin\ShareBook.WebApp.dll.config
+D:\Bitirme\ShareBook\ShareBook\ShareBook.WebApp\bin\ShareBook.WebApp.dll
+D:\Bitirme\ShareBook\ShareBook\ShareBook.WebApp\bin\ShareBook.WebApp.pdb
+D:\Bitirme\ShareBook\ShareBook\ShareBook.WebApp\bin\EntityFramework.dll
+D:\Bitirme\ShareBook\ShareBook\ShareBook.WebApp\bin\EntityFramework.SqlServer.dll
+D:\Bitirme\ShareBook\ShareBook\ShareBook.WebApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Bitirme\ShareBook\ShareBook\ShareBook.WebApp\bin\Microsoft.Web.Infrastructure.dll
+D:\Bitirme\ShareBook\ShareBook\ShareBook.WebApp\bin\ShareBook.BusinessLayer.dll
+D:\Bitirme\ShareBook\ShareBook\ShareBook.WebApp\bin\ShareBook.Common.dll
+D:\Bitirme\ShareBook\ShareBook\ShareBook.WebApp\bin\ShareBook.Core.dll
+D:\Bitirme\ShareBook\ShareBook\ShareBook.WebApp\bin\ShareBook.Entities.dll
+D:\Bitirme\ShareBook\ShareBook\ShareBook.WebApp\bin\System.Web.Helpers.dll
+D:\Bitirme\ShareBook\ShareBook\ShareBook.WebApp\bin\System.Web.Mvc.dll
+D:\Bitirme\ShareBook\ShareBook\ShareBook.WebApp\bin\System.Web.Razor.dll
+D:\Bitirme\ShareBook\ShareBook\ShareBook.WebApp\bin\System.Web.Webpages.Deployment.dll
+D:\Bitirme\ShareBook\ShareBook\ShareBook.WebApp\bin\System.Web.Webpages.dll
+D:\Bitirme\ShareBook\ShareBook\ShareBook.WebApp\bin\System.Web.Webpages.Razor.dll
+D:\Bitirme\ShareBook\ShareBook\ShareBook.WebApp\bin\ShareBook.DAL.dll
+D:\Bitirme\ShareBook\ShareBook\ShareBook.WebApp\bin\FakeData.dll
+D:\Bitirme\ShareBook\ShareBook\ShareBook.WebApp\bin\ShareBook.BusinessLayer.pdb
+D:\Bitirme\ShareBook\ShareBook\ShareBook.WebApp\bin\ShareBook.BusinessLayer.dll.config
+D:\Bitirme\ShareBook\ShareBook\ShareBook.WebApp\bin\ShareBook.Common.pdb
+D:\Bitirme\ShareBook\ShareBook\ShareBook.WebApp\bin\ShareBook.Core.pdb
+D:\Bitirme\ShareBook\ShareBook\ShareBook.WebApp\bin\ShareBook.Entities.pdb
+D:\Bitirme\ShareBook\ShareBook\ShareBook.WebApp\bin\EntityFramework.xml
+D:\Bitirme\ShareBook\ShareBook\ShareBook.WebApp\bin\EntityFramework.SqlServer.xml
+D:\Bitirme\ShareBook\ShareBook\ShareBook.WebApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Bitirme\ShareBook\ShareBook\ShareBook.WebApp\bin\System.Web.Razor.xml
+D:\Bitirme\ShareBook\ShareBook\ShareBook.WebApp\bin\System.Web.Webpages.xml
+D:\Bitirme\ShareBook\ShareBook\ShareBook.WebApp\bin\System.Web.Webpages.Deployment.xml
+D:\Bitirme\ShareBook\ShareBook\ShareBook.WebApp\bin\System.Web.Webpages.Razor.xml
+D:\Bitirme\ShareBook\ShareBook\ShareBook.WebApp\bin\System.Web.Helpers.xml
+D:\Bitirme\ShareBook\ShareBook\ShareBook.WebApp\bin\System.Web.Mvc.xml
+D:\Bitirme\ShareBook\ShareBook\ShareBook.WebApp\bin\ShareBook.DAL.pdb
+D:\Bitirme\ShareBook\ShareBook\ShareBook.WebApp\bin\ShareBook.DAL.dll.config
+D:\Bitirme\ShareBook\ShareBook\ShareBook.WebApp\bin\FakeData.pdb
+D:\Bitirme\ShareBook\ShareBook\ShareBook.WebApp\obj\Debug\ShareBook.WebApp.csprojResolveAssemblyReference.cache
+D:\Bitirme\ShareBook\ShareBook\ShareBook.WebApp\obj\Debug\ShareBook.WebApp.csproj.CoreCompileInputs.cache
+D:\Bitirme\ShareBook\ShareBook\ShareBook.WebApp\obj\Debug\ShareBook.WebApp.csproj.CopyComplete
+D:\Bitirme\ShareBook\ShareBook\ShareBook.WebApp\obj\Debug\ShareBook.WebApp.dll
+D:\Bitirme\ShareBook\ShareBook\ShareBook.WebApp\obj\Debug\ShareBook.WebApp.pdb
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\csc.exe
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\csc.exe.config
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\csc.rsp
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\csi.exe
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\csi.exe.config
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\csi.rsp
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\System.AppContext.dll
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\System.Collections.Immutable.dll
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\System.Console.dll
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\System.Diagnostics.Process.dll
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\System.IO.Compression.dll
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\System.IO.FileSystem.dll
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\System.IO.Pipes.dll
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\System.Reflection.Metadata.dll
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\System.Security.AccessControl.dll
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\System.Security.Claims.dll
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\System.Security.Principal.Windows.dll
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\System.Threading.Thread.dll
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\System.ValueTuple.dll
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\System.Xml.XmlDocument.dll
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\System.Xml.XPath.dll
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\vbc.exe
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\vbc.exe.config
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\vbc.rsp
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\VBCSCompiler.exe
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\VBCSCompiler.exe.config
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook\ShareBook.WebApp\bin\ShareBook.WebApp.dll.config
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook\ShareBook.WebApp\bin\ShareBook.WebApp.dll
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook\ShareBook.WebApp\bin\ShareBook.WebApp.pdb
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook\ShareBook.WebApp\bin\EntityFramework.dll
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook\ShareBook.WebApp\bin\EntityFramework.SqlServer.dll
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook\ShareBook.WebApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook\ShareBook.WebApp\bin\Microsoft.Web.Infrastructure.dll
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook\ShareBook.WebApp\bin\ShareBook.BusinessLayer.dll
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook\ShareBook.WebApp\bin\ShareBook.Common.dll
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook\ShareBook.WebApp\bin\ShareBook.Core.dll
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook\ShareBook.WebApp\bin\ShareBook.Entities.dll
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook\ShareBook.WebApp\bin\System.Web.Helpers.dll
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook\ShareBook.WebApp\bin\System.Web.Mvc.dll
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook\ShareBook.WebApp\bin\System.Web.Razor.dll
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook\ShareBook.WebApp\bin\System.Web.Webpages.Deployment.dll
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook\ShareBook.WebApp\bin\System.Web.Webpages.dll
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook\ShareBook.WebApp\bin\System.Web.Webpages.Razor.dll
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook\ShareBook.WebApp\bin\ShareBook.DAL.dll
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook\ShareBook.WebApp\bin\FakeData.dll
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook\ShareBook.WebApp\bin\ShareBook.BusinessLayer.pdb
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook\ShareBook.WebApp\bin\ShareBook.BusinessLayer.dll.config
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook\ShareBook.WebApp\bin\ShareBook.Common.pdb
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook\ShareBook.WebApp\bin\ShareBook.Core.pdb
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook\ShareBook.WebApp\bin\ShareBook.Entities.pdb
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook\ShareBook.WebApp\bin\EntityFramework.xml
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook\ShareBook.WebApp\bin\EntityFramework.SqlServer.xml
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook\ShareBook.WebApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook\ShareBook.WebApp\bin\System.Web.Razor.xml
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook\ShareBook.WebApp\bin\System.Web.Webpages.xml
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook\ShareBook.WebApp\bin\System.Web.Webpages.Deployment.xml
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook\ShareBook.WebApp\bin\System.Web.Webpages.Razor.xml
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook\ShareBook.WebApp\bin\System.Web.Helpers.xml
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook\ShareBook.WebApp\bin\System.Web.Mvc.xml
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook\ShareBook.WebApp\bin\ShareBook.DAL.pdb
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook\ShareBook.WebApp\bin\ShareBook.DAL.dll.config
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook\ShareBook.WebApp\bin\FakeData.pdb
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook\ShareBook.WebApp\obj\Debug\ShareBook.WebApp.csprojAssemblyReference.cache
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook\ShareBook.WebApp\obj\Debug\ShareBook.WebApp.csproj.CoreCompileInputs.cache
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook\ShareBook.WebApp\obj\Debug\ShareBook.WebApp.csproj.CopyComplete
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook\ShareBook.WebApp\obj\Debug\ShareBook.WebApp.dll
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook\ShareBook.WebApp\obj\Debug\ShareBook.WebApp.pdb
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook\ShareBook.WebApp\bin\Newtonsoft.Json.dll
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook\ShareBook.WebApp\bin\Newtonsoft.Json.xml
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\csc.exe
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\csc.exe.config
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\csc.rsp
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\csi.exe
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\csi.exe.config
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\csi.rsp
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\System.AppContext.dll
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\System.Collections.Immutable.dll
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\System.Console.dll
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\System.Diagnostics.Process.dll
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\System.IO.Compression.dll
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\System.IO.FileSystem.dll
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\System.IO.Pipes.dll
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\System.Reflection.Metadata.dll
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\System.Security.AccessControl.dll
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\System.Security.Claims.dll
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\System.Security.Principal.Windows.dll
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\System.Threading.Thread.dll
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\System.ValueTuple.dll
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\System.Xml.XmlDocument.dll
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\System.Xml.XPath.dll
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\vbc.exe
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\vbc.exe.config
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\vbc.rsp
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\VBCSCompiler.exe
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\VBCSCompiler.exe.config
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook.WebApp\bin\ShareBook.WebApp.dll.config
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook.WebApp\bin\ShareBook.WebApp.dll
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook.WebApp\bin\ShareBook.WebApp.pdb
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook.WebApp\bin\EntityFramework.dll
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook.WebApp\bin\EntityFramework.SqlServer.dll
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook.WebApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook.WebApp\bin\Microsoft.Web.Infrastructure.dll
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook.WebApp\bin\Newtonsoft.Json.dll
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook.WebApp\bin\ShareBook.BusinessLayer.dll
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook.WebApp\bin\ShareBook.Common.dll
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook.WebApp\bin\ShareBook.Core.dll
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook.WebApp\bin\ShareBook.Entities.dll
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook.WebApp\bin\System.Web.Helpers.dll
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook.WebApp\bin\System.Web.Mvc.dll
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook.WebApp\bin\System.Web.Razor.dll
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook.WebApp\bin\System.Web.Webpages.Deployment.dll
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook.WebApp\bin\System.Web.Webpages.dll
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook.WebApp\bin\System.Web.Webpages.Razor.dll
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook.WebApp\bin\ShareBook.DAL.dll
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook.WebApp\bin\ShareBook.BusinessLayer.pdb
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook.WebApp\bin\ShareBook.BusinessLayer.dll.config
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook.WebApp\bin\ShareBook.Common.pdb
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook.WebApp\bin\ShareBook.Core.pdb
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook.WebApp\bin\ShareBook.Entities.pdb
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook.WebApp\bin\EntityFramework.xml
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook.WebApp\bin\EntityFramework.SqlServer.xml
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook.WebApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook.WebApp\bin\Newtonsoft.Json.xml
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook.WebApp\bin\System.Web.Razor.xml
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook.WebApp\bin\System.Web.Webpages.xml
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook.WebApp\bin\System.Web.Webpages.Deployment.xml
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook.WebApp\bin\System.Web.Webpages.Razor.xml
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook.WebApp\bin\System.Web.Helpers.xml
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook.WebApp\bin\System.Web.Mvc.xml
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook.WebApp\bin\ShareBook.DAL.pdb
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook.WebApp\bin\ShareBook.DAL.dll.config
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook.WebApp\obj\Debug\ShareBook.WebApp.csprojAssemblyReference.cache
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook.WebApp\obj\Debug\ShareBook.WebApp.csproj.CoreCompileInputs.cache
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook.WebApp\obj\Debug\ShareBook.WebApp.csproj.CopyComplete
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook.WebApp\obj\Debug\ShareBook.WebApp.dll
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook.WebApp\obj\Debug\ShareBook.WebApp.pdb
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook.WebApp\bin\FakeData.dll
+D:\BitirmeProject\ShareBook\ShareBook\ShareBook.WebApp\bin\FakeData.pdb
+D:\Download Firefox\ShareBook\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\csc.exe
+D:\Download Firefox\ShareBook\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\csc.exe.config
+D:\Download Firefox\ShareBook\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\csc.rsp
+D:\Download Firefox\ShareBook\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\csi.exe
+D:\Download Firefox\ShareBook\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\csi.exe.config
+D:\Download Firefox\ShareBook\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\csi.rsp
+D:\Download Firefox\ShareBook\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Download Firefox\ShareBook\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Download Firefox\ShareBook\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Download Firefox\ShareBook\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Download Firefox\ShareBook\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Download Firefox\ShareBook\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Download Firefox\ShareBook\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Download Firefox\ShareBook\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Download Firefox\ShareBook\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Download Firefox\ShareBook\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Download Firefox\ShareBook\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\Download Firefox\ShareBook\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\System.AppContext.dll
+D:\Download Firefox\ShareBook\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\System.Collections.Immutable.dll
+D:\Download Firefox\ShareBook\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\System.Console.dll
+D:\Download Firefox\ShareBook\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Download Firefox\ShareBook\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\System.Diagnostics.Process.dll
+D:\Download Firefox\ShareBook\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Download Firefox\ShareBook\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\System.IO.Compression.dll
+D:\Download Firefox\ShareBook\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\System.IO.FileSystem.dll
+D:\Download Firefox\ShareBook\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+D:\Download Firefox\ShareBook\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Download Firefox\ShareBook\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\System.IO.Pipes.dll
+D:\Download Firefox\ShareBook\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\System.Reflection.Metadata.dll
+D:\Download Firefox\ShareBook\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\System.Security.AccessControl.dll
+D:\Download Firefox\ShareBook\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\System.Security.Claims.dll
+D:\Download Firefox\ShareBook\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Download Firefox\ShareBook\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Download Firefox\ShareBook\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Download Firefox\ShareBook\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Download Firefox\ShareBook\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\System.Security.Principal.Windows.dll
+D:\Download Firefox\ShareBook\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Download Firefox\ShareBook\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\System.Threading.Thread.dll
+D:\Download Firefox\ShareBook\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\System.ValueTuple.dll
+D:\Download Firefox\ShareBook\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Download Firefox\ShareBook\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Download Firefox\ShareBook\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\System.Xml.XPath.dll
+D:\Download Firefox\ShareBook\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Download Firefox\ShareBook\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\vbc.exe
+D:\Download Firefox\ShareBook\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\vbc.exe.config
+D:\Download Firefox\ShareBook\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\vbc.rsp
+D:\Download Firefox\ShareBook\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\VBCSCompiler.exe
+D:\Download Firefox\ShareBook\ShareBook\ShareBook\ShareBook.WebApp\bin\roslyn\VBCSCompiler.exe.config
+D:\Download Firefox\ShareBook\ShareBook\ShareBook\ShareBook.WebApp\bin\ShareBook.WebApp.dll.config
+D:\Download Firefox\ShareBook\ShareBook\ShareBook\ShareBook.WebApp\bin\ShareBook.WebApp.dll
+D:\Download Firefox\ShareBook\ShareBook\ShareBook\ShareBook.WebApp\bin\ShareBook.WebApp.pdb
+D:\Download Firefox\ShareBook\ShareBook\ShareBook\ShareBook.WebApp\bin\EntityFramework.dll
+D:\Download Firefox\ShareBook\ShareBook\ShareBook\ShareBook.WebApp\bin\EntityFramework.SqlServer.dll
+D:\Download Firefox\ShareBook\ShareBook\ShareBook\ShareBook.WebApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Download Firefox\ShareBook\ShareBook\ShareBook\ShareBook.WebApp\bin\Microsoft.Web.Infrastructure.dll
+D:\Download Firefox\ShareBook\ShareBook\ShareBook\ShareBook.WebApp\bin\Newtonsoft.Json.dll
+D:\Download Firefox\ShareBook\ShareBook\ShareBook\ShareBook.WebApp\bin\ShareBook.BusinessLayer.dll
+D:\Download Firefox\ShareBook\ShareBook\ShareBook\ShareBook.WebApp\bin\ShareBook.Common.dll
+D:\Download Firefox\ShareBook\ShareBook\ShareBook\ShareBook.WebApp\bin\ShareBook.Core.dll
+D:\Download Firefox\ShareBook\ShareBook\ShareBook\ShareBook.WebApp\bin\ShareBook.Entities.dll
+D:\Download Firefox\ShareBook\ShareBook\ShareBook\ShareBook.WebApp\bin\System.Web.Helpers.dll
+D:\Download Firefox\ShareBook\ShareBook\ShareBook\ShareBook.WebApp\bin\System.Web.Mvc.dll
+D:\Download Firefox\ShareBook\ShareBook\ShareBook\ShareBook.WebApp\bin\System.Web.Razor.dll
+D:\Download Firefox\ShareBook\ShareBook\ShareBook\ShareBook.WebApp\bin\System.Web.Webpages.Deployment.dll
+D:\Download Firefox\ShareBook\ShareBook\ShareBook\ShareBook.WebApp\bin\System.Web.Webpages.dll
+D:\Download Firefox\ShareBook\ShareBook\ShareBook\ShareBook.WebApp\bin\System.Web.Webpages.Razor.dll
+D:\Download Firefox\ShareBook\ShareBook\ShareBook\ShareBook.WebApp\bin\ShareBook.DAL.dll
+D:\Download Firefox\ShareBook\ShareBook\ShareBook\ShareBook.WebApp\bin\FakeData.dll
+D:\Download Firefox\ShareBook\ShareBook\ShareBook\ShareBook.WebApp\bin\ShareBook.BusinessLayer.pdb
+D:\Download Firefox\ShareBook\ShareBook\ShareBook\ShareBook.WebApp\bin\ShareBook.BusinessLayer.dll.config
+D:\Download Firefox\ShareBook\ShareBook\ShareBook\ShareBook.WebApp\bin\ShareBook.Common.pdb
+D:\Download Firefox\ShareBook\ShareBook\ShareBook\ShareBook.WebApp\bin\ShareBook.Core.pdb
+D:\Download Firefox\ShareBook\ShareBook\ShareBook\ShareBook.WebApp\bin\ShareBook.Entities.pdb
+D:\Download Firefox\ShareBook\ShareBook\ShareBook\ShareBook.WebApp\bin\EntityFramework.xml
+D:\Download Firefox\ShareBook\ShareBook\ShareBook\ShareBook.WebApp\bin\EntityFramework.SqlServer.xml
+D:\Download Firefox\ShareBook\ShareBook\ShareBook\ShareBook.WebApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Download Firefox\ShareBook\ShareBook\ShareBook\ShareBook.WebApp\bin\Newtonsoft.Json.xml
+D:\Download Firefox\ShareBook\ShareBook\ShareBook\ShareBook.WebApp\bin\System.Web.Razor.xml
+D:\Download Firefox\ShareBook\ShareBook\ShareBook\ShareBook.WebApp\bin\System.Web.Webpages.xml
+D:\Download Firefox\ShareBook\ShareBook\ShareBook\ShareBook.WebApp\bin\System.Web.Webpages.Deployment.xml
+D:\Download Firefox\ShareBook\ShareBook\ShareBook\ShareBook.WebApp\bin\System.Web.Webpages.Razor.xml
+D:\Download Firefox\ShareBook\ShareBook\ShareBook\ShareBook.WebApp\bin\System.Web.Helpers.xml
+D:\Download Firefox\ShareBook\ShareBook\ShareBook\ShareBook.WebApp\bin\System.Web.Mvc.xml
+D:\Download Firefox\ShareBook\ShareBook\ShareBook\ShareBook.WebApp\bin\ShareBook.DAL.pdb
+D:\Download Firefox\ShareBook\ShareBook\ShareBook\ShareBook.WebApp\bin\ShareBook.DAL.dll.config
+D:\Download Firefox\ShareBook\ShareBook\ShareBook\ShareBook.WebApp\bin\FakeData.pdb
+D:\Download Firefox\ShareBook\ShareBook\ShareBook\ShareBook.WebApp\obj\Debug\ShareBook.WebApp.csprojAssemblyReference.cache
+D:\Download Firefox\ShareBook\ShareBook\ShareBook\ShareBook.WebApp\obj\Debug\ShareBook.WebApp.csproj.CoreCompileInputs.cache
+D:\Download Firefox\ShareBook\ShareBook\ShareBook\ShareBook.WebApp\obj\Debug\ShareBook.WebApp.csproj.CopyComplete
+D:\Download Firefox\ShareBook\ShareBook\ShareBook\ShareBook.WebApp\obj\Debug\ShareBook.WebApp.dll
+D:\Download Firefox\ShareBook\ShareBook\ShareBook\ShareBook.WebApp\obj\Debug\ShareBook.WebApp.pdb

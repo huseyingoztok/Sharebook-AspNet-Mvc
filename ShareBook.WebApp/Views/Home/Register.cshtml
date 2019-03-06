@@ -1,0 +1,85 @@
+﻿
+@{
+    ViewBag.Title = "Register";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@using ShareBook.Entities.ValueObjects
+@model RegisterViewModel
+
+
+<link href="~/Content/login/login.css" rel="stylesheet" />
+
+@using (Html.BeginForm("Register", "Home", FormMethod.Post, null))
+{
+    
+    <div class="container-fluid col-md-6">
+        <div class="card card-register mx-auto mt-5">
+            <div class="card-header">Register an Account</div>
+            <div class="card-body">
+                <form>
+                    <!-- TODO: BURDAKİ DÜZENLEMELER İLE DEVAM EDİLECEK-->
+                    @Html.ValidationSummary(false, "", new { @class = "text-left", style = "color:#007BFF" })
+                    <div class="form-group">
+                        <div class="form-row">
+                            <div class="col-md-6">
+                                <label for="name">First name</label>
+                                @Html.TextBoxFor(model => model.Name, new { id = "name", @class = "form-control", name = "name", autofocus = "true", placeholder = "Adınız..." })
+                            </div>
+                            <div class="col-md-6">
+                                <label for="surname">Last name</label>
+                                @Html.TextBoxFor(model => model.Surname, new { id = "surname", @class = "form-control", name = "surname",  placeholder = "Soyadınız..." })
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="username">Username</label>
+                        @Html.TextBoxFor(model => model.Username, new { id = "username", @class = "form-control", name = "username", placeholder = "Username..." })
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email address</label>
+                        @Html.TextBoxFor(model => model.Email, new { id = "email", @class = "form-control", name = "email", placeholder = "E-mail..." })
+                    </div>
+                    <div class="form-group">
+                        <div class="form-row">
+                            <div class="col-md-6">
+                                <label for="password">Password</label>
+                                @Html.TextBoxFor(model => model.Password, new { id = "password", @class = "form-control", name = "password", placeholder = "Password...",type="password", data_eye = "true" })
+                            </div>
+                            <div class="col-md-6">
+                                <label for="repassword">Confirm password</label>
+                                @Html.TextBoxFor(model => model.RePassword, new { id = "repassword", @class = "form-control", name = "repassword", placeholder = "Confirm Password...", type = "password", data_eye = "true" })
+                            </div>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block">
+                        Register
+                    </button>
+                </form>
+                <div class="text-center">
+                    <a class="d-block small mt-3" href="/Home/Login">Login Page</a>
+                    <a class="d-block small" href="/Home/ForgotPassword">Forgot Password?</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+}
+   
+
+
+
+
+
+
+
+<script src="~/Scripts/jquery-3.3.1.min.js"></script>
+<script src="~/Scripts/login/login.js"></script>
+<script type="text/javascript">
+        $(document).ready(function () {
+            $('footer').hide();
+        });
+</script>
+
+
+
